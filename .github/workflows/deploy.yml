@@ -31,7 +31,6 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # The site lives at https://<user>.github.io/<repo>/ so the base is /<repo>/
       - name: Build
         run: npm run build
         env:
