@@ -76,9 +76,7 @@ const QuestionRow = memo(function QuestionRow({
         >
           {q.question}
         </p>
-        <Badge tone={q.priority === "must" ? "indigo" : "slate"}>
-          {q.priority}
-        </Badge>
+
         <div className="flex items-center gap-1">
           <Badge tone={confTone[confidence]}>{confidence}</Badge>
           <label className="sr-only" htmlFor={`conf-${q.id}`}>
