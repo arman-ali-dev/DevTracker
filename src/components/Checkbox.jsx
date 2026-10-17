@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo } from "react";
 
 // Checkbox with a proper label. "label" is used for screen readers.
 function Checkbox({ checked, onChange, label }) {
