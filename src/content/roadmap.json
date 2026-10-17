@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phase-1",
+    "title": "Core Java",
+    "sections": [
+      {
+        "id": "p1-oop",
+        "title": "OOP Concepts",
+        "items": [
+          { "id": "p1-oop-001", "title": "Classes, Objects, Constructors" },
+          { "id": "p1-oop-002", "title": "Inheritance and Polymorphism" },
+          { "id": "p1-oop-003", "title": "Abstraction and Interfaces" },
+          { "id": "p1-oop-004", "title": "Encapsulation and Access Modifiers" }
+        ]
+      },
+      {
+        "id": "p1-coll",
+        "title": "Collections",
+        "items": [
+          { "id": "p1-coll-001", "title": "List, Set, Map basics" },
+          { "id": "p1-coll-002", "title": "HashMap internals" },
+          { "id": "p1-coll-003", "title": "Comparable vs Comparator" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-2",
+    "title": "Spring Boot",
+    "sections": [
+      {
+        "id": "p2-core",
+        "title": "Spring Core",
+        "items": [
+          { "id": "p2-core-001", "title": "Dependency Injection and IoC" },
+          { "id": "p2-core-002", "title": "Beans and scopes" },
+          { "id": "p2-core-003", "title": "Auto-configuration" }
+        ]
+      },
+      {
+        "id": "p2-web",
+        "title": "REST APIs",
+        "items": [
+          { "id": "p2-web-001", "title": "Controllers and request mapping" },
+          { "id": "p2-web-002", "title": "Validation and exception handling" },
+          { "id": "p2-web-003", "title": "Spring Data JPA basics" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-3",
+    "title": "DevOps and Cloud",
+    "sections": [
+      {
+        "id": "p3-docker",
+        "title": "Containers",
+        "items": [
+          { "id": "p3-docker-001", "title": "Write a Dockerfile" },
+          { "id": "p3-docker-002", "title": "Docker Compose" }
+        ]
+      },
+      {
+        "id": "p3-ci",
+        "title": "CI/CD",
+        "items": [
+          { "id": "p3-ci-001", "title": "GitHub Actions pipeline" },
+          { "id": "p3-ci-002", "title": "Deploy to a cloud VM" },
+          { "id": "p3-ci-003", "title": "Basic monitoring and logging" }
+        ]
+      }
+    ]
+  }
+]

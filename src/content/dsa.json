@@ -1,0 +1,17 @@
+[
+  { "id": "dsa-arrays-001", "category": "Arrays & Hashing", "title": "Contains Duplicate", "difficulty": "Easy", "url": "https://leetcode.com/problems/contains-duplicate/" },
+  { "id": "dsa-arrays-002", "category": "Arrays & Hashing", "title": "Valid Anagram", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-anagram/" },
+  { "id": "dsa-arrays-003", "category": "Arrays & Hashing", "title": "Two Sum", "difficulty": "Easy", "url": "https://leetcode.com/problems/two-sum/" },
+  { "id": "dsa-arrays-004", "category": "Arrays & Hashing", "title": "Group Anagrams", "difficulty": "Medium", "url": "https://leetcode.com/problems/group-anagrams/" },
+  { "id": "dsa-arrays-005", "category": "Arrays & Hashing", "title": "Top K Frequent Elements", "difficulty": "Medium", "url": "https://leetcode.com/problems/top-k-frequent-elements/" },
+  { "id": "dsa-twoptr-001", "category": "Two Pointers", "title": "Valid Palindrome", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-palindrome/" },
+  { "id": "dsa-twoptr-002", "category": "Two Pointers", "title": "Two Sum II - Input Array Is Sorted", "difficulty": "Medium", "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" },
+  { "id": "dsa-twoptr-003", "category": "Two Pointers", "title": "3Sum", "difficulty": "Medium", "url": "https://leetcode.com/problems/3sum/" },
+  { "id": "dsa-twoptr-004", "category": "Two Pointers", "title": "Container With Most Water", "difficulty": "Medium", "url": "https://leetcode.com/problems/container-with-most-water/" },
+  { "id": "dsa-twoptr-005", "category": "Two Pointers", "title": "Trapping Rain Water", "difficulty": "Hard", "url": "https://leetcode.com/problems/trapping-rain-water/" },
+  { "id": "dsa-stack-001", "category": "Stack", "title": "Valid Parentheses", "difficulty": "Easy", "url": "https://leetcode.com/problems/valid-parentheses/" },
+  { "id": "dsa-stack-002", "category": "Stack", "title": "Min Stack", "difficulty": "Medium", "url": "https://leetcode.com/problems/min-stack/" },
+  { "id": "dsa-stack-003", "category": "Stack", "title": "Evaluate Reverse Polish Notation", "difficulty": "Medium", "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/" },
+  { "id": "dsa-stack-004", "category": "Stack", "title": "Daily Temperatures", "difficulty": "Medium", "url": "https://leetcode.com/problems/daily-temperatures/" },
+  { "id": "dsa-stack-005", "category": "Stack", "title": "Largest Rectangle in Histogram", "difficulty": "Hard", "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/" }
+]
