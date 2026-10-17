@@ -4,12 +4,44 @@
     "title": "Core Java",
     "sections": [
       {
+        "id": "p1-fund",
+        "title": "Java Fundamentals",
+        "items": [
+          {
+            "id": "p1-fund-001",
+            "title": "Program structure: main method, class, packages, imports"
+          },
+          {
+            "id": "p1-fund-002",
+            "title": "Primitive data types and type casting"
+          },
+          { "id": "p1-fund-003", "title": "Operators" },
+          { "id": "p1-fund-004", "title": "Control flow and loops" },
+          { "id": "p1-fund-005", "title": "Arrays" },
+          { "id": "p1-fund-006", "title": "Methods and method overloading" },
+          { "id": "p1-fund-007", "title": "Scope and lifetime of variables" },
+          {
+            "id": "p1-fund-008",
+            "title": "String, StringBuilder, StringBuffer"
+          },
+          {
+            "id": "p1-fund-009",
+            "title": "Wrapper classes, autoboxing and unboxing"
+          },
+          { "id": "p1-fund-010", "title": "Generics basics" },
+          { "id": "p1-fund-011", "title": "Scanner class for user input" }
+        ]
+      },
+      {
         "id": "p1-oop",
         "title": "OOP Concepts",
         "items": [
           { "id": "p1-oop-001", "title": "Classes, Objects, Constructors" },
           { "id": "p1-oop-002", "title": "Inheritance and Polymorphism" },
-          { "id": "p1-oop-003", "title": "Abstraction and Interfaces" },
+          {
+            "id": "p1-oop-003",
+            "title": "Abstraction, Interfaces vs Abstract Classes"
+          },
           { "id": "p1-oop-004", "title": "Encapsulation and Access Modifiers" }
         ]
       },
@@ -19,54 +51,1093 @@
         "items": [
           { "id": "p1-coll-001", "title": "List, Set, Map basics" },
           { "id": "p1-coll-002", "title": "HashMap internals" },
-          { "id": "p1-coll-003", "title": "Comparable vs Comparator" }
+          { "id": "p1-coll-003", "title": "Comparable vs Comparator" },
+          { "id": "p1-coll-004", "title": "Queue, Deque, PriorityQueue" }
+        ]
+      },
+      {
+        "id": "p1-exc",
+        "title": "Exception Handling",
+        "items": [
+          { "id": "p1-exc-001", "title": "Checked vs Unchecked exceptions" },
+          { "id": "p1-exc-002", "title": "Try-catch-finally" },
+          { "id": "p1-exc-003", "title": "Custom exceptions" },
+          { "id": "p1-exc-004", "title": "Try-with-resources" }
+        ]
+      },
+      {
+        "id": "p1-thread",
+        "title": "Multithreading and Concurrency",
+        "items": [
+          { "id": "p1-thread-001", "title": "Thread lifecycle" },
+          { "id": "p1-thread-002", "title": "Runnable vs Callable" },
+          { "id": "p1-thread-003", "title": "ExecutorService and ThreadPool" },
+          { "id": "p1-thread-004", "title": "synchronized and volatile" },
+          { "id": "p1-thread-005", "title": "CompletableFuture" }
+        ]
+      },
+      {
+        "id": "p1-j8",
+        "title": "Java 8+ Features",
+        "items": [
+          { "id": "p1-j8-001", "title": "Lambda expressions" },
+          { "id": "p1-j8-002", "title": "Stream API" },
+          { "id": "p1-j8-003", "title": "Optional class" },
+          { "id": "p1-j8-004", "title": "Functional interfaces" },
+          { "id": "p1-j8-005", "title": "Method references" },
+          {
+            "id": "p1-j8-006",
+            "title": "Default and static methods in interfaces"
+          }
+        ]
+      },
+      {
+        "id": "p1-jvm",
+        "title": "JVM and Memory Management",
+        "items": [
+          { "id": "p1-jvm-001", "title": "JVM architecture" },
+          { "id": "p1-jvm-002", "title": "Heap vs Stack memory" },
+          { "id": "p1-jvm-003", "title": "Garbage Collection" },
+          { "id": "p1-jvm-004", "title": "ClassLoader mechanism" },
+          { "id": "p1-jvm-005", "title": "Java memory model" }
         ]
       }
     ]
   },
   {
     "id": "phase-2",
-    "title": "Spring Boot",
+    "title": "DSA in Java",
     "sections": [
       {
-        "id": "p2-core",
-        "title": "Spring Core",
+        "id": "p2-arr",
+        "title": "Arrays and Strings",
         "items": [
-          { "id": "p2-core-001", "title": "Dependency Injection and IoC" },
-          { "id": "p2-core-002", "title": "Beans and scopes" },
-          { "id": "p2-core-003", "title": "Auto-configuration" }
+          { "id": "p2-arr-001", "title": "Sliding window technique" },
+          { "id": "p2-arr-002", "title": "Two pointers approach" },
+          { "id": "p2-arr-003", "title": "Prefix sum" },
+          { "id": "p2-arr-004", "title": "Kadane's algorithm" }
         ]
       },
       {
-        "id": "p2-web",
-        "title": "REST APIs",
+        "id": "p2-ll",
+        "title": "Linked Lists",
         "items": [
-          { "id": "p2-web-001", "title": "Controllers and request mapping" },
-          { "id": "p2-web-002", "title": "Validation and exception handling" },
-          { "id": "p2-web-003", "title": "Spring Data JPA basics" }
+          { "id": "p2-ll-001", "title": "Reversal (iterative and recursive)" },
+          { "id": "p2-ll-002", "title": "Cycle detection (Floyd's algorithm)" },
+          { "id": "p2-ll-003", "title": "Merge sorted lists" },
+          { "id": "p2-ll-004", "title": "Find middle element" }
+        ]
+      },
+      {
+        "id": "p2-sq",
+        "title": "Stack and Queue",
+        "items": [
+          { "id": "p2-sq-001", "title": "Monotonic stack problems" },
+          { "id": "p2-sq-002", "title": "BFS using Queue" },
+          {
+            "id": "p2-sq-003",
+            "title": "Implement stack using queue and vice versa"
+          },
+          { "id": "p2-sq-004", "title": "Next greater element" }
+        ]
+      },
+      {
+        "id": "p2-tree",
+        "title": "Trees",
+        "items": [
+          {
+            "id": "p2-tree-001",
+            "title": "Binary tree traversals: inorder, preorder, postorder, level order"
+          },
+          { "id": "p2-tree-002", "title": "Binary Search Tree operations" },
+          { "id": "p2-tree-003", "title": "Height and diameter of tree" },
+          { "id": "p2-tree-004", "title": "Lowest Common Ancestor" }
+        ]
+      },
+      {
+        "id": "p2-graph",
+        "title": "Graphs",
+        "items": [
+          { "id": "p2-graph-001", "title": "BFS and DFS traversal" },
+          {
+            "id": "p2-graph-002",
+            "title": "Detect cycle in directed and undirected graph"
+          },
+          { "id": "p2-graph-003", "title": "Topological sort" },
+          {
+            "id": "p2-graph-004",
+            "title": "Shortest path: Dijkstra, Bellman-Ford"
+          }
+        ]
+      },
+      {
+        "id": "p2-dp",
+        "title": "Dynamic Programming",
+        "items": [
+          { "id": "p2-dp-001", "title": "Memoization vs Tabulation" },
+          { "id": "p2-dp-002", "title": "0/1 Knapsack" },
+          { "id": "p2-dp-003", "title": "Longest Common Subsequence" },
+          { "id": "p2-dp-004", "title": "Longest Increasing Subsequence" },
+          { "id": "p2-dp-005", "title": "Coin change problem" }
+        ]
+      },
+      {
+        "id": "p2-sort",
+        "title": "Sorting and Searching",
+        "items": [
+          { "id": "p2-sort-001", "title": "Binary search and its variations" },
+          { "id": "p2-sort-002", "title": "Merge sort and Quick sort" },
+          { "id": "p2-sort-003", "title": "Counting sort" }
         ]
       }
     ]
   },
   {
     "id": "phase-3",
-    "title": "DevOps and Cloud",
+    "title": "Spring Boot and Backend",
     "sections": [
       {
-        "id": "p3-docker",
-        "title": "Containers",
+        "id": "p3-web",
+        "title": "Pre-Spring Essentials (Web Fundamentals + Maven)",
         "items": [
-          { "id": "p3-docker-001", "title": "Write a Dockerfile" },
-          { "id": "p3-docker-002", "title": "Docker Compose" }
+          { "id": "p3-web-001", "title": "Client-Server architecture" },
+          {
+            "id": "p3-web-002",
+            "title": "HTTP protocol basics: request-response cycle"
+          },
+          {
+            "id": "p3-web-003",
+            "title": "HTTP methods: GET, POST, PUT, PATCH, DELETE"
+          },
+          { "id": "p3-web-004", "title": "HTTP status codes" },
+          {
+            "id": "p3-web-005",
+            "title": "Request and Response structure: headers, body, query params, path params"
+          },
+          { "id": "p3-web-006", "title": "Statelessness of HTTP" },
+          { "id": "p3-web-007", "title": "JSON as a data exchange format" },
+          {
+            "id": "p3-web-008",
+            "title": "What is an API and what makes it RESTful"
+          },
+          { "id": "p3-web-009", "title": "Basics of Postman" },
+          {
+            "id": "p3-web-010",
+            "title": "Maven: project structure, pom.xml, dependencies, build lifecycle, plugins"
+          }
         ]
       },
       {
-        "id": "p3-ci",
-        "title": "CI/CD",
+        "id": "p3-core",
+        "title": "Spring Core",
         "items": [
-          { "id": "p3-ci-001", "title": "GitHub Actions pipeline" },
-          { "id": "p3-ci-002", "title": "Deploy to a cloud VM" },
-          { "id": "p3-ci-003", "title": "Basic monitoring and logging" }
+          { "id": "p3-core-001", "title": "Dependency Injection and IoC" },
+          { "id": "p3-core-002", "title": "Bean lifecycle" },
+          { "id": "p3-core-003", "title": "Beans and scopes" },
+          { "id": "p3-core-004", "title": "ApplicationContext vs BeanFactory" },
+          {
+            "id": "p3-core-005",
+            "title": "Stereotype annotations: @Component, @Service, @Repository, @Configuration, @Bean"
+          },
+          { "id": "p3-core-006", "title": "Aspect-Oriented Programming (AOP)" }
+        ]
+      },
+      {
+        "id": "p3-boot",
+        "title": "Spring Boot Essentials",
+        "items": [
+          { "id": "p3-boot-001", "title": "Auto-configuration" },
+          {
+            "id": "p3-boot-002",
+            "title": "application.properties / application.yml and profiles"
+          },
+          { "id": "p3-boot-003", "title": "Starter dependencies" },
+          { "id": "p3-boot-004", "title": "Spring Boot Actuator" },
+          {
+            "id": "p3-boot-005",
+            "title": "Externalized configuration: @Value and @ConfigurationProperties"
+          },
+          {
+            "id": "p3-boot-006",
+            "title": "Custom auto-configuration and conditional beans"
+          }
+        ]
+      },
+      {
+        "id": "p3-mvc",
+        "title": "Spring MVC Architecture",
+        "items": [
+          { "id": "p3-mvc-001", "title": "DispatcherServlet request flow" },
+          { "id": "p3-mvc-002", "title": "@Controller vs @RestController" },
+          { "id": "p3-mvc-003", "title": "Controllers and request mapping" },
+          {
+            "id": "p3-mvc-004",
+            "title": "@PathVariable, @RequestParam, @RequestBody, @ResponseBody"
+          }
+        ]
+      },
+      {
+        "id": "p3-rest",
+        "title": "REST API Development",
+        "items": [
+          { "id": "p3-rest-001", "title": "DTO pattern" },
+          {
+            "id": "p3-rest-002",
+            "title": "Request validation with @Valid and Bean Validation"
+          },
+          {
+            "id": "p3-rest-003",
+            "title": "Global exception handling with @ControllerAdvice"
+          },
+          { "id": "p3-rest-004", "title": "Pagination and sorting" },
+          {
+            "id": "p3-rest-005",
+            "title": "ResponseEntity and proper HTTP status codes"
+          },
+          { "id": "p3-rest-006", "title": "API versioning strategies" },
+          { "id": "p3-rest-007", "title": "HATEOAS basics" }
+        ]
+      },
+      {
+        "id": "p3-jpa",
+        "title": "Spring Data JPA and Hibernate",
+        "items": [
+          { "id": "p3-jpa-001", "title": "Entity mapping" },
+          {
+            "id": "p3-jpa-002",
+            "title": "Relationships: One-to-One, One-to-Many, Many-to-Many"
+          },
+          {
+            "id": "p3-jpa-003",
+            "title": "Repository pattern: JpaRepository, CrudRepository"
+          },
+          { "id": "p3-jpa-004", "title": "JPQL and native queries" },
+          {
+            "id": "p3-jpa-005",
+            "title": "Lazy vs Eager loading (N+1 problem)"
+          },
+          { "id": "p3-jpa-006", "title": "Transaction management" },
+          { "id": "p3-jpa-007", "title": "Second-level caching" },
+          {
+            "id": "p3-jpa-008",
+            "title": "Query optimization and entity graphs"
+          }
+        ]
+      },
+      {
+        "id": "p3-sec",
+        "title": "Spring Security (Advanced)",
+        "items": [
+          { "id": "p3-sec-001", "title": "Authentication vs Authorization" },
+          { "id": "p3-sec-002", "title": "Security filter chain internals" },
+          {
+            "id": "p3-sec-003",
+            "title": "JWT implementation (access + refresh tokens)"
+          },
+          {
+            "id": "p3-sec-004",
+            "title": "Role-based and permission-based access control"
+          },
+          { "id": "p3-sec-005", "title": "OAuth2 and OpenID Connect" },
+          { "id": "p3-sec-006", "title": "Password encoding (BCrypt, Argon2)" },
+          { "id": "p3-sec-007", "title": "CORS and CSRF handling" },
+          {
+            "id": "p3-sec-008",
+            "title": "Custom authentication providers and filters"
+          },
+          { "id": "p3-sec-009", "title": "Keycloak basics" }
+        ]
+      },
+      {
+        "id": "p3-reactive",
+        "title": "Reactive Programming (Spring WebFlux)",
+        "items": [
+          {
+            "id": "p3-reactive-001",
+            "title": "Imperative vs reactive programming model"
+          },
+          {
+            "id": "p3-reactive-002",
+            "title": "Mono, Flux and Reactive Streams spec"
+          },
+          {
+            "id": "p3-reactive-003",
+            "title": "WebClient for non-blocking HTTP calls"
+          },
+          {
+            "id": "p3-reactive-004",
+            "title": "R2DBC for reactive database access"
+          },
+          { "id": "p3-reactive-005", "title": "Backpressure handling" }
+        ]
+      },
+      {
+        "id": "p3-msg",
+        "title": "Messaging and Event-Driven Architecture",
+        "items": [
+          { "id": "p3-msg-001", "title": "Apache Kafka basics" },
+          { "id": "p3-msg-002", "title": "Spring Kafka integration" },
+          { "id": "p3-msg-003", "title": "RabbitMQ and Spring AMQP" },
+          {
+            "id": "p3-msg-004",
+            "title": "Event-driven vs request-driven design"
+          },
+          { "id": "p3-msg-005", "title": "Idempotency and message ordering" }
+        ]
+      },
+      {
+        "id": "p3-batch",
+        "title": "Batch Processing",
+        "items": [
+          {
+            "id": "p3-batch-001",
+            "title": "Spring Batch: Jobs, Steps, ItemReader/Processor/Writer"
+          },
+          { "id": "p3-batch-002", "title": "Chunk-oriented processing" },
+          { "id": "p3-batch-003", "title": "Scheduling batch jobs" }
+        ]
+      },
+      {
+        "id": "p3-test",
+        "title": "Testing",
+        "items": [
+          { "id": "p3-test-001", "title": "Unit testing with JUnit 5" },
+          { "id": "p3-test-002", "title": "Mocking with Mockito" },
+          {
+            "id": "p3-test-003",
+            "title": "@WebMvcTest, @DataJpaTest, @SpringBootTest"
+          },
+          {
+            "id": "p3-test-004",
+            "title": "Integration testing with TestContainers"
+          },
+          { "id": "p3-test-005", "title": "Contract testing basics" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-4",
+    "title": "Databases (MongoDB + MySQL)",
+    "sections": [
+      {
+        "id": "p4-mongo",
+        "title": "MongoDB Basics",
+        "items": [
+          {
+            "id": "p4-mongo-001",
+            "title": "Document-oriented model: collections, documents, BSON"
+          },
+          {
+            "id": "p4-mongo-002",
+            "title": "CRUD operations and bulk variants"
+          },
+          {
+            "id": "p4-mongo-003",
+            "title": "Query operators: comparison, logical, element"
+          },
+          {
+            "id": "p4-mongo-004",
+            "title": "Schema design: embedding vs referencing"
+          },
+          { "id": "p4-mongo-005", "title": "Indexes: single-field, compound" },
+          { "id": "p4-mongo-006", "title": "Aggregation pipeline basics" },
+          { "id": "p4-mongo-007", "title": "Spring Data MongoDB" },
+          { "id": "p4-mongo-008", "title": "MongoTemplate vs MongoRepository" }
+        ]
+      },
+      {
+        "id": "p4-sqlfund",
+        "title": "MySQL: Database Fundamentals",
+        "items": [
+          { "id": "p4-sqlfund-001", "title": "Database and DBMS" },
+          {
+            "id": "p4-sqlfund-002",
+            "title": "Types of databases: Relational vs Non-Relational with examples"
+          },
+          { "id": "p4-sqlfund-003", "title": "SQL and MySQL" },
+          { "id": "p4-sqlfund-004", "title": "Table, Column, Row" },
+          {
+            "id": "p4-sqlfund-005",
+            "title": "Creating first database and first table"
+          },
+          { "id": "p4-sqlfund-006", "title": "SQL datatypes" },
+          {
+            "id": "p4-sqlfund-007",
+            "title": "Database and table related queries"
+          },
+          {
+            "id": "p4-sqlfund-008",
+            "title": "Keys: Primary Key and Foreign Key"
+          },
+          { "id": "p4-sqlfund-009", "title": "Constraints" },
+          {
+            "id": "p4-sqlfund-010",
+            "title": "Foreign keys revisited and cascading"
+          },
+          { "id": "p4-sqlfund-011", "title": "Normalization: 1NF, 2NF, 3NF" }
+        ]
+      },
+      {
+        "id": "p4-sqlcrud",
+        "title": "MySQL: SQL Basics and CRUD",
+        "items": [
+          { "id": "p4-sqlcrud-001", "title": "SELECT and INSERT commands" },
+          { "id": "p4-sqlcrud-002", "title": "SELECT in detail" },
+          { "id": "p4-sqlcrud-003", "title": "WHERE clause and operators" },
+          { "id": "p4-sqlcrud-004", "title": "LIMIT and ORDER BY" },
+          { "id": "p4-sqlcrud-005", "title": "Aggregate functions" },
+          { "id": "p4-sqlcrud-006", "title": "GROUP BY and HAVING" },
+          { "id": "p4-sqlcrud-007", "title": "General order of SQL commands" },
+          { "id": "p4-sqlcrud-008", "title": "UPDATE and DELETE" },
+          { "id": "p4-sqlcrud-009", "title": "Practice questions" }
+        ]
+      },
+      {
+        "id": "p4-sqladv",
+        "title": "MySQL: SQL Advanced Querying",
+        "items": [
+          {
+            "id": "p4-sqladv-001",
+            "title": "ALTER, CHANGE and MODIFY commands"
+          },
+          { "id": "p4-sqladv-002", "title": "TRUNCATE command" },
+          { "id": "p4-sqladv-003", "title": "JOINS in SQL" },
+          { "id": "p4-sqladv-004", "title": "UNION in SQL" },
+          { "id": "p4-sqladv-005", "title": "SQL Subqueries" },
+          { "id": "p4-sqladv-006", "title": "MySQL Views" },
+          { "id": "p4-sqladv-007", "title": "Practice questions" },
+          {
+            "id": "p4-sqladv-008",
+            "title": "Composite queries: combining multiple SQL concepts"
+          }
+        ]
+      },
+      {
+        "id": "p4-sqlperf",
+        "title": "MySQL: Performance and Important Concepts",
+        "items": [
+          {
+            "id": "p4-sqlperf-001",
+            "title": "Indexes: basic concept and composite indexes"
+          },
+          { "id": "p4-sqlperf-002", "title": "EXPLAIN: query execution plan" },
+          {
+            "id": "p4-sqlperf-003",
+            "title": "Transactions and ACID properties"
+          },
+          { "id": "p4-sqlperf-004", "title": "COMMIT, ROLLBACK, SAVEPOINT" },
+          { "id": "p4-sqlperf-005", "title": "Isolation levels" },
+          {
+            "id": "p4-sqlperf-006",
+            "title": "Row-level vs Table-level locking"
+          },
+          { "id": "p4-sqlperf-007", "title": "Deadlocks" }
+        ]
+      },
+      {
+        "id": "p4-cmp",
+        "title": "SQL vs NoSQL",
+        "items": [
+          {
+            "id": "p4-cmp-001",
+            "title": "When to choose relational vs document-based storage"
+          },
+          {
+            "id": "p4-cmp-002",
+            "title": "Trade-offs: consistency vs flexibility vs scalability"
+          },
+          { "id": "p4-cmp-003", "title": "Polyglot persistence" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-5",
+    "title": "Microservices",
+    "sections": [
+      {
+        "id": "p5-found",
+        "title": "Foundations",
+        "items": [
+          { "id": "p5-found-001", "title": "Monolith vs Microservices" },
+          {
+            "id": "p5-found-002",
+            "title": "Service decomposition: DDD and bounded context"
+          },
+          { "id": "p5-found-003", "title": "Database per service pattern" },
+          {
+            "id": "p5-found-004",
+            "title": "Synchronous vs asynchronous communication"
+          }
+        ]
+      },
+      {
+        "id": "p5-comm",
+        "title": "Inter-Service Communication",
+        "items": [
+          {
+            "id": "p5-comm-001",
+            "title": "REST-based communication between services"
+          },
+          { "id": "p5-comm-002", "title": "Feign Client" },
+          {
+            "id": "p5-comm-003",
+            "title": "WebClient for service-to-service calls"
+          },
+          { "id": "p5-comm-004", "title": "gRPC basics" }
+        ]
+      },
+      {
+        "id": "p5-disc",
+        "title": "Service Discovery and Load Balancing",
+        "items": [
+          { "id": "p5-disc-001", "title": "Netflix Eureka" },
+          { "id": "p5-disc-002", "title": "Spring Cloud LoadBalancer" },
+          {
+            "id": "p5-disc-003",
+            "title": "Service registration and health checks"
+          }
+        ]
+      },
+      {
+        "id": "p5-gw",
+        "title": "API Gateway",
+        "items": [
+          {
+            "id": "p5-gw-001",
+            "title": "Spring Cloud Gateway: routing and predicates"
+          },
+          { "id": "p5-gw-002", "title": "Gateway filters (pre/post)" },
+          { "id": "p5-gw-003", "title": "Rate limiting at the gateway" },
+          {
+            "id": "p5-gw-004",
+            "title": "Centralized cross-cutting concerns (auth, logging)"
+          }
+        ]
+      },
+      {
+        "id": "p5-config",
+        "title": "Centralized Configuration",
+        "items": [
+          { "id": "p5-config-001", "title": "Spring Cloud Config Server" },
+          {
+            "id": "p5-config-002",
+            "title": "Externalizing configuration across services"
+          },
+          {
+            "id": "p5-config-003",
+            "title": "Dynamic refresh with @RefreshScope"
+          }
+        ]
+      },
+      {
+        "id": "p5-resil",
+        "title": "Resilience and Fault Tolerance",
+        "items": [
+          {
+            "id": "p5-resil-001",
+            "title": "Circuit Breaker with Resilience4j"
+          },
+          {
+            "id": "p5-resil-002",
+            "title": "Retry, Rate Limiter, Bulkhead, Time Limiter"
+          },
+          {
+            "id": "p5-resil-003",
+            "title": "Fallback methods and graceful degradation"
+          },
+          { "id": "p5-resil-004", "title": "Timeout handling between services" }
+        ]
+      },
+      {
+        "id": "p5-obs",
+        "title": "Observability",
+        "items": [
+          {
+            "id": "p5-obs-001",
+            "title": "Centralized logging and correlation IDs"
+          },
+          {
+            "id": "p5-obs-002",
+            "title": "Distributed tracing: Micrometer Tracing with Zipkin"
+          },
+          {
+            "id": "p5-obs-003",
+            "title": "Health monitoring with Actuator across services"
+          }
+        ]
+      },
+      {
+        "id": "p5-data",
+        "title": "Data Consistency Across Services",
+        "items": [
+          {
+            "id": "p5-data-001",
+            "title": "Distributed transactions problem (why 2PC does not scale)"
+          },
+          {
+            "id": "p5-data-002",
+            "title": "Saga pattern: choreography vs orchestration"
+          },
+          { "id": "p5-data-003", "title": "Eventual consistency" },
+          { "id": "p5-data-004", "title": "Outbox pattern" }
+        ]
+      },
+      {
+        "id": "p5-sec",
+        "title": "Security in Microservices",
+        "items": [
+          {
+            "id": "p5-sec-001",
+            "title": "Centralized authentication with OAuth2/JWT at the gateway"
+          },
+          { "id": "p5-sec-002", "title": "Token propagation between services" },
+          { "id": "p5-sec-003", "title": "Keycloak as an identity provider" }
+        ]
+      },
+      {
+        "id": "p5-arch",
+        "title": "Architectural Patterns",
+        "items": [
+          { "id": "p5-arch-001", "title": "API composition pattern" },
+          { "id": "p5-arch-002", "title": "Backend for Frontend (BFF)" },
+          { "id": "p5-arch-003", "title": "Strangler Fig pattern" }
+        ]
+      },
+      {
+        "id": "p5-test",
+        "title": "Testing Microservices",
+        "items": [
+          {
+            "id": "p5-test-001",
+            "title": "Contract testing with Spring Cloud Contract"
+          },
+          {
+            "id": "p5-test-002",
+            "title": "Integration testing across services with TestContainers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-6",
+    "title": "HTML & CSS",
+    "sections": [
+      {
+        "id": "p6-html",
+        "title": "HTML Fundamentals",
+        "items": [
+          {
+            "id": "p6-html-001",
+            "title": "Document structure: DOCTYPE, html, head, body"
+          },
+          { "id": "p6-html-002", "title": "Semantic elements" },
+          { "id": "p6-html-003", "title": "Text elements, lists, tables" },
+          {
+            "id": "p6-html-004",
+            "title": "Forms: input types, labels, fieldsets, validation attributes"
+          },
+          {
+            "id": "p6-html-005",
+            "title": "Links, images, and media embedding"
+          },
+          { "id": "p6-html-006", "title": "Attributes: id, class, data-*" },
+          { "id": "p6-html-007", "title": "Accessibility basics" },
+          { "id": "p6-html-008", "title": "Meta tags: viewport, charset, SEO" }
+        ]
+      },
+      {
+        "id": "p6-css",
+        "title": "CSS Fundamentals",
+        "items": [
+          { "id": "p6-css-001", "title": "Selectors" },
+          { "id": "p6-css-002", "title": "Specificity and the cascade" },
+          { "id": "p6-css-003", "title": "Box model" },
+          { "id": "p6-css-004", "title": "Display types" },
+          { "id": "p6-css-005", "title": "Positioning" },
+          { "id": "p6-css-006", "title": "Flexbox" },
+          { "id": "p6-css-007", "title": "CSS Grid" },
+          {
+            "id": "p6-css-008",
+            "title": "Responsive design: media queries, mobile-first"
+          },
+          { "id": "p6-css-009", "title": "Units: px, %, em, rem, vw, vh" },
+          { "id": "p6-css-010", "title": "CSS variables" },
+          { "id": "p6-css-011", "title": "Transitions and animations" },
+          { "id": "p6-css-012", "title": "Typography and web fonts" },
+          { "id": "p6-css-013", "title": "CSS methodologies: BEM" },
+          { "id": "p6-css-014", "title": "SCSS/SASS basics" },
+          { "id": "p6-css-015", "title": "Tailwind CSS fundamentals" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-7",
+    "title": "JavaScript",
+    "sections": [
+      {
+        "id": "p7-core",
+        "title": "Core JavaScript",
+        "items": [
+          {
+            "id": "p7-core-001",
+            "title": "Variables: var, let, const and scoping"
+          },
+          {
+            "id": "p7-core-002",
+            "title": "Data types: primitives vs reference types"
+          },
+          { "id": "p7-core-003", "title": "Operators and type coercion" },
+          { "id": "p7-core-004", "title": "Control flow and loops" },
+          {
+            "id": "p7-core-005",
+            "title": "Functions: declarations, expressions, arrow, default and rest parameters"
+          },
+          {
+            "id": "p7-core-006",
+            "title": "Hoisting and the temporal dead zone"
+          },
+          { "id": "p7-core-007", "title": "Closures and lexical scope" },
+          { "id": "p7-core-008", "title": "The this keyword" }
+        ]
+      },
+      {
+        "id": "p7-obj",
+        "title": "Objects and Arrays",
+        "items": [
+          {
+            "id": "p7-obj-001",
+            "title": "Object creation, property access, computed properties"
+          },
+          {
+            "id": "p7-obj-002",
+            "title": "Array methods: map, filter, reduce, forEach, find, some, every"
+          },
+          { "id": "p7-obj-003", "title": "Destructuring" },
+          { "id": "p7-obj-004", "title": "Spread and rest operators" },
+          { "id": "p7-obj-005", "title": "Immutability patterns" }
+        ]
+      },
+      {
+        "id": "p7-async",
+        "title": "Asynchronous JavaScript",
+        "items": [
+          {
+            "id": "p7-async-001",
+            "title": "Call stack, event loop, task queue"
+          },
+          { "id": "p7-async-002", "title": "Callbacks and callback hell" },
+          {
+            "id": "p7-async-003",
+            "title": "Promises: chaining, all, race, allSettled"
+          },
+          { "id": "p7-async-004", "title": "async/await and error handling" }
+        ]
+      },
+      {
+        "id": "p7-dom",
+        "title": "DOM Manipulation",
+        "items": [
+          { "id": "p7-dom-001", "title": "Selecting elements" },
+          {
+            "id": "p7-dom-002",
+            "title": "Creating, modifying, removing DOM elements"
+          },
+          {
+            "id": "p7-dom-003",
+            "title": "Event handling: bubbling, capturing, delegation"
+          },
+          {
+            "id": "p7-dom-004",
+            "title": "Form handling and validation in vanilla JS"
+          }
+        ]
+      },
+      {
+        "id": "p7-browser",
+        "title": "Browser APIs",
+        "items": [
+          { "id": "p7-browser-001", "title": "Fetch API" },
+          {
+            "id": "p7-browser-002",
+            "title": "LocalStorage vs SessionStorage vs Cookies"
+          },
+          { "id": "p7-browser-003", "title": "JSON parsing and stringifying" }
+        ]
+      },
+      {
+        "id": "p7-es6",
+        "title": "ES6+ Features",
+        "items": [
+          { "id": "p7-es6-001", "title": "Template literals" },
+          { "id": "p7-es6-002", "title": "Modules: import/export" },
+          { "id": "p7-es6-003", "title": "Classes and inheritance" },
+          { "id": "p7-es6-004", "title": "Generators and iterators" },
+          {
+            "id": "p7-es6-005",
+            "title": "Optional chaining and nullish coalescing"
+          }
+        ]
+      },
+      {
+        "id": "p7-tool",
+        "title": "Tooling Basics",
+        "items": [
+          { "id": "p7-tool-001", "title": "npm/yarn package management" },
+          { "id": "p7-tool-002", "title": "Understanding package.json" },
+          {
+            "id": "p7-tool-003",
+            "title": "Basic bundler concepts (Vite/Webpack)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-8",
+    "title": "React.js",
+    "sections": [
+      {
+        "id": "p8-fund",
+        "title": "React Fundamentals",
+        "items": [
+          { "id": "p8-fund-001", "title": "JSX syntax and how it compiles" },
+          { "id": "p8-fund-002", "title": "Functional vs class components" },
+          {
+            "id": "p8-fund-003",
+            "title": "Props: passing data, prop types, default props"
+          },
+          { "id": "p8-fund-004", "title": "Rendering lists with keys" },
+          { "id": "p8-fund-005", "title": "Conditional rendering patterns" }
+        ]
+      },
+      {
+        "id": "p8-hooks",
+        "title": "Hooks",
+        "items": [
+          { "id": "p8-hooks-001", "title": "useState" },
+          { "id": "p8-hooks-002", "title": "useEffect" },
+          { "id": "p8-hooks-003", "title": "useContext" },
+          { "id": "p8-hooks-004", "title": "useRef" },
+          { "id": "p8-hooks-005", "title": "useMemo and useCallback" },
+          { "id": "p8-hooks-006", "title": "useReducer" },
+          { "id": "p8-hooks-007", "title": "Custom hooks" }
+        ]
+      },
+      {
+        "id": "p8-design",
+        "title": "Component Design",
+        "items": [
+          { "id": "p8-design-001", "title": "Composition vs inheritance" },
+          {
+            "id": "p8-design-002",
+            "title": "Controlled vs uncontrolled components"
+          },
+          { "id": "p8-design-003", "title": "Lifting state up" },
+          {
+            "id": "p8-design-004",
+            "title": "Container/Presentational pattern"
+          },
+          {
+            "id": "p8-design-005",
+            "title": "Folder structure and project architecture"
+          }
+        ]
+      },
+      {
+        "id": "p8-route",
+        "title": "Routing",
+        "items": [
+          {
+            "id": "p8-route-001",
+            "title": "React Router: Routes, Route, Link, useNavigate, useParams"
+          },
+          { "id": "p8-route-002", "title": "Nested routes and layouts" },
+          { "id": "p8-route-003", "title": "Protected/private routes" }
+        ]
+      },
+      {
+        "id": "p8-state",
+        "title": "State Management",
+        "items": [
+          { "id": "p8-state-001", "title": "Context API for global state" },
+          { "id": "p8-state-002", "title": "Redux Toolkit" },
+          { "id": "p8-state-003", "title": "Zustand" },
+          {
+            "id": "p8-state-004",
+            "title": "When to use a state library vs local state"
+          }
+        ]
+      },
+      {
+        "id": "p8-forms",
+        "title": "Forms in React",
+        "items": [
+          { "id": "p8-forms-001", "title": "Controlled form inputs" },
+          { "id": "p8-forms-002", "title": "React Hook Form basics" },
+          { "id": "p8-forms-003", "title": "Validation with Zod or Yup" }
+        ]
+      },
+      {
+        "id": "p8-api",
+        "title": "API Integration",
+        "items": [
+          {
+            "id": "p8-api-001",
+            "title": "Fetching data with useEffect + fetch/axios"
+          },
+          {
+            "id": "p8-api-002",
+            "title": "Axios interceptors: JWT, refresh-token flow, error handling"
+          },
+          { "id": "p8-api-003", "title": "React Query (TanStack Query)" },
+          { "id": "p8-api-004", "title": "Handling loading and error states" },
+          { "id": "p8-api-005", "title": "API service layer" }
+        ]
+      },
+      {
+        "id": "p8-err",
+        "title": "Error Handling",
+        "items": [
+          { "id": "p8-err-001", "title": "Error Boundaries and fallback UI" },
+          {
+            "id": "p8-err-002",
+            "title": "Error Boundaries vs try-catch in async code"
+          }
+        ]
+      },
+      {
+        "id": "p8-perf",
+        "title": "Performance and Optimization",
+        "items": [
+          { "id": "p8-perf-001", "title": "React.memo" },
+          {
+            "id": "p8-perf-002",
+            "title": "Code splitting with React.lazy and Suspense"
+          },
+          { "id": "p8-perf-003", "title": "Avoiding unnecessary re-renders" }
+        ]
+      },
+      {
+        "id": "p8-debug",
+        "title": "Debugging Tools",
+        "items": [
+          { "id": "p8-debug-001", "title": "React DevTools" },
+          { "id": "p8-debug-002", "title": "Profiler tab" }
+        ]
+      },
+      {
+        "id": "p8-test",
+        "title": "Testing",
+        "items": [
+          {
+            "id": "p8-test-001",
+            "title": "Component testing with React Testing Library"
+          },
+          { "id": "p8-test-002", "title": "Jest basics" }
+        ]
+      },
+      {
+        "id": "p8-build",
+        "title": "Build and Deployment",
+        "items": [
+          { "id": "p8-build-001", "title": "Vite as the build tool" },
+          {
+            "id": "p8-build-002",
+            "title": "Environment variables in React apps"
+          },
+          {
+            "id": "p8-build-003",
+            "title": "Production build and static hosting"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phase-9",
+    "title": "DevOps and Deployment",
+    "sections": [
+      {
+        "id": "p9-docker",
+        "title": "Docker",
+        "items": [
+          { "id": "p9-docker-001", "title": "What is containerization" },
+          {
+            "id": "p9-docker-002",
+            "title": "Write a Dockerfile for Spring Boot app"
+          },
+          {
+            "id": "p9-docker-003",
+            "title": "Docker commands: build, run, push, pull"
+          },
+          { "id": "p9-docker-004", "title": "Docker Compose" },
+          { "id": "p9-docker-005", "title": "Docker Hub" }
+        ]
+      },
+      {
+        "id": "p9-k8s",
+        "title": "Kubernetes",
+        "items": [
+          { "id": "p9-k8s-001", "title": "Pods, Nodes, Clusters" },
+          { "id": "p9-k8s-002", "title": "Deployments and ReplicaSets" },
+          {
+            "id": "p9-k8s-003",
+            "title": "Services: ClusterIP, NodePort, LoadBalancer"
+          },
+          { "id": "p9-k8s-004", "title": "ConfigMaps and Secrets" },
+          { "id": "p9-k8s-005", "title": "Basic kubectl commands" }
+        ]
+      },
+      {
+        "id": "p9-ci",
+        "title": "CI/CD Pipeline",
+        "items": [
+          { "id": "p9-ci-001", "title": "GitHub Actions basics" },
+          {
+            "id": "p9-ci-002",
+            "title": "Workflow for a full stack app (backend + frontend)"
+          },
+          { "id": "p9-ci-003", "title": "Automated testing and deployment" },
+          { "id": "p9-ci-004", "title": "Jenkins basics" }
+        ]
+      },
+      {
+        "id": "p9-redis",
+        "title": "Redis and Caching",
+        "items": [
+          {
+            "id": "p9-redis-001",
+            "title": "What is caching and why it matters"
+          },
+          { "id": "p9-redis-002", "title": "Redis data structures" },
+          { "id": "p9-redis-003", "title": "Spring Boot Redis integration" },
+          {
+            "id": "p9-redis-004",
+            "title": "Cache strategies: Write-through, Write-back, Cache-aside"
+          }
+        ]
+      },
+      {
+        "id": "p9-host",
+        "title": "Hosting and Infrastructure",
+        "items": [
+          {
+            "id": "p9-host-001",
+            "title": "Deploying Spring Boot backend (Render/Railway/AWS EC2)"
+          },
+          {
+            "id": "p9-host-002",
+            "title": "Deploying React frontend (Vercel/Netlify)"
+          },
+          {
+            "id": "p9-host-003",
+            "title": "Environment configuration across dev/staging/prod"
+          },
+          { "id": "p9-host-004", "title": "Nginx as a reverse proxy" }
         ]
       }
     ]
