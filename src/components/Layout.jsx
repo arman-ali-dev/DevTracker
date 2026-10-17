@@ -36,7 +36,7 @@ function NavList({ onNavigate }) {
               className={({ isActive }) =>
                 `flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium ${
                   isActive
-                    ? "bg-indigo-600 text-white"
+                    ? "bg-black text-white"
                     : "text-slate-700 hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-800"
                 }`
               }
@@ -75,7 +75,6 @@ export default function Layout() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
-  // Close the mobile menu and scroll up when the page changes.
   useEffect(() => {
     setMenuOpen(false);
     window.scrollTo(0, 0);
@@ -91,14 +90,10 @@ export default function Layout() {
       </a>
 
       {/* Sidebar on desktop */}
-      <aside className="hidden w-60 shrink-0 border-r border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900 lg:block">
+      <aside className="hidden w-80 shrink-0 border-r border-slate-200 bg-white px-6 py-6 dark:border-slate-800 dark:bg-slate-900 lg:block">
         <div className="sticky top-4 space-y-6">
-          <div className="flex items-center gap-2 px-3 text-lg font-bold">
-            <BookOpen
-              className="h-6 w-6 text-indigo-600 dark:text-indigo-400"
-              aria-hidden="true"
-            />
-            Dev Tracker
+          <div className="flex mb-10 items-center gap-2 px-3 text-[26px] font-bold">
+            DevTracker
           </div>
           <NavList />
           <ThemeToggle />
@@ -150,7 +145,7 @@ export default function Layout() {
           </Banner>
         )}
 
-        <main id="main" className="mx-auto max-w-5xl p-4 sm:p-6">
+        <main id="main" className="mx-10 p-4 sm:p-6">
           <Outlet />
         </main>
       </div>
