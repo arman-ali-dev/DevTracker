@@ -60,7 +60,7 @@
     "group": "Core Java",
     "topic": "Java Fundamentals",
     "priority": "must",
-    "question": "What is the difference between && and &, and what is short-circuit evaluation?"
+    "question": "What is the difference between float and double?"
   },
   {
     "id": "java-basics-010",
