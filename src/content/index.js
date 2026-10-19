@@ -1,4 +1,3 @@
-// Loads the three content files and flattens them for easy use.
 import roadmapData from "./roadmap.json";
 import dsaData from "./dsa.json";
 import interviewData from "./interview.json";
