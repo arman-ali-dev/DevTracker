@@ -7,7 +7,6 @@ export const roadmap = roadmapData;
 export const dsa = dsaData;
 export const interview = interviewData;
 
-// Flat list of all roadmap items (with their phase and section ids).
 export const roadmapItems = roadmap.flatMap((phase) =>
   phase.sections.flatMap((section) =>
     section.items.map((item) => ({
