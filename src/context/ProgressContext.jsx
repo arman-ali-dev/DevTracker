@@ -38,6 +38,21 @@ function patchItem(state, kind, id, patch, now) {
   };
 }
 
+// Make a unique id for a new project or task.
+function newId() {
+  if (window.crypto && window.crypto.randomUUID)
+    return window.crypto.randomUUID();
+  return Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
+}
+
+// Change one project and leave the others as they are.
+function mapProject(state, projectId, fn) {
+  return {
+    ...state,
+    projects: state.projects.map((p) => (p.id === projectId ? fn(p) : p)),
+  };
+}
+
 function reducer(state, action) {
   const now = Date.now();
   switch (action.type) {
@@ -53,6 +68,57 @@ function reducer(state, action) {
       }
       return next;
     }
+
+    case "addProject":
+      return {
+        ...state,
+        projects: [
+          ...state.projects,
+          {
+            id: action.id,
+            name: action.name,
+            createdAt: now,
+            updatedAt: now,
+            tasks: [],
+          },
+        ],
+      };
+    case "deleteProject":
+      return {
+        ...state,
+        projects: state.projects.filter((p) => p.id !== action.id),
+      };
+    case "addTask":
+      return mapProject(state, action.projectId, (p) => ({
+        ...p,
+        updatedAt: now,
+        tasks: [
+          ...p.tasks,
+          {
+            id: action.id,
+            category: action.category,
+            title: action.title,
+            done: false,
+            updatedAt: now,
+          },
+        ],
+      }));
+    case "toggleTask":
+      return mapProject(state, action.projectId, (p) => ({
+        ...p,
+        updatedAt: now,
+        tasks: p.tasks.map((t) =>
+          t.id === action.taskId
+            ? { ...t, done: action.done, updatedAt: now }
+            : t,
+        ),
+      }));
+    case "deleteTask":
+      return mapProject(state, action.projectId, (p) => ({
+        ...p,
+        updatedAt: now,
+        tasks: p.tasks.filter((t) => t.id !== action.taskId),
+      }));
     case "theme":
       return { ...state, settings: { ...state.settings, theme: action.theme } };
     case "import":
@@ -108,6 +174,14 @@ export function ProgressProvider({ children }) {
         dispatch({ type: "patch", kind: "dsa", id, patch }),
       patchInterview: (id, patch) =>
         dispatch({ type: "patch", kind: "interview", id, patch }),
+      addProject: (name) => dispatch({ type: "addProject", id: newId(), name }),
+      deleteProject: (id) => dispatch({ type: "deleteProject", id }),
+      addTask: (projectId, category, title) =>
+        dispatch({ type: "addTask", projectId, category, title, id: newId() }),
+      toggleTask: (projectId, taskId, done) =>
+        dispatch({ type: "toggleTask", projectId, taskId, done }),
+      deleteTask: (projectId, taskId) =>
+        dispatch({ type: "deleteTask", projectId, taskId }),
       setTheme: (theme) => dispatch({ type: "theme", theme }),
       importData: (data, mode) => dispatch({ type: "import", data, mode }),
       resetAll: () => {

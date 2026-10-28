@@ -8,6 +8,7 @@ import {
   countDone,
   countDoneSince,
   groupBy,
+  projectProgress,
   recentActivity,
   startOfToday,
   startOfWeek,
@@ -21,6 +22,58 @@ const phaseItems = roadmap.map((phase) => ({
   name: phase.title,
   items: roadmapItems.filter((i) => i.phaseId === phase.id),
 }));
+
+// Per-project bars: frontend and backend for each project.
+function ProjectBars({ projects }) {
+  return (
+    <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+      <h3 className="mb-3 text-sm font-semibold">Projects</h3>
+      {projects.length === 0 ? (
+        <p className="text-sm text-slate-600 dark:text-slate-400">
+          No projects yet.{" "}
+          <Link
+            to="/projects"
+            className="font-medium text-indigo-700 underline dark:text-indigo-300"
+          >
+            Add one
+          </Link>
+        </p>
+      ) : (
+        <ul className="grid gap-4 md:grid-cols-2">
+          {projects.map((p) => {
+            const s = projectProgress(p);
+            return (
+              <li key={p.id}>
+                <div className="mb-1 flex justify-between text-sm font-medium">
+                  <span className="truncate pr-2">{p.name}</span>
+                  <span className="tabular-nums">{s.all.percent}%</span>
+                </div>
+                {[
+                  ["Frontend", s.frontend],
+                  ["Backend", s.backend],
+                ].map(([label, x]) => (
+                  <div key={label} className="mb-2">
+                    <div className="mb-1 flex justify-between text-xs">
+                      <span>{label}</span>
+                      <span className="tabular-nums text-slate-600 dark:text-slate-400">
+                        {x.done}/{x.total} · {x.percent}%
+                      </span>
+                    </div>
+                    <ProgressBar
+                      value={x.percent}
+                      label={`${p.name} ${label} progress`}
+                      size="sm"
+                    />
+                  </div>
+                ))}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </section>
+  );
+}
 
 function SummaryCard({ title, to, stats }) {
   return (
@@ -79,14 +132,21 @@ export default function Dashboard() {
     const i = countDone(interview, state.interview);
     const overall = combine([r, d, i]);
 
+    // Project tasks (done today / recent activity also include them).
+    const allTasks = state.projects.flatMap((p) =>
+      p.tasks.map((t) => ({ ...t, projectName: p.name })),
+    );
+    const pj = combine(state.projects.map((p) => projectProgress(p).all));
+
     const today = startOfToday();
     const week = startOfWeek();
     const sinceCount = (since) =>
       countDoneSince(roadmapItems, state.roadmap, since) +
       countDoneSince(dsa, state.dsa, since) +
-      countDoneSince(interview, state.interview, since);
+      countDoneSince(interview, state.interview, since) +
+      allTasks.filter((t) => t.done && t.updatedAt >= since).length;
 
-    const recent = recentActivity(
+    const recentBase = recentActivity(
       [
         {
           kind: "Roadmap",
@@ -112,17 +172,29 @@ export default function Dashboard() {
       ],
       5,
     );
+    const recentTasks = allTasks.map((t) => ({
+      id: t.id,
+      kind: "Project",
+      title: `${t.title} (${t.projectName})`,
+      done: t.done,
+      updatedAt: t.updatedAt,
+      linkTo: "/projects",
+    }));
+    const recent = [...recentBase, ...recentTasks]
+      .sort((a, b) => b.updatedAt - a.updatedAt)
+      .slice(0, 5);
+
     return {
       r,
       d,
       i,
+      pj,
       overall,
       doneToday: sinceCount(today),
       doneWeek: sinceCount(week),
       recent,
     };
-  }, [state.roadmap, state.dsa, state.interview]);
-
+  }, [state.roadmap, state.dsa, state.interview, state.projects]);
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold">Dashboard</h1>
@@ -159,10 +231,11 @@ export default function Dashboard() {
       </section>
 
       {/* Three summary cards */}
-      <section className="grid gap-4 md:grid-cols-3">
+      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <SummaryCard title="Roadmap" to="/roadmap" stats={stats.r} />
         <SummaryCard title="DSA" to="/dsa" stats={stats.d} />
         <SummaryCard title="Interview" to="/interview" stats={stats.i} />
+        <SummaryCard title="Projects" to="/projects" stats={stats.pj} />
       </section>
 
       {/* Mini bars */}
@@ -179,6 +252,8 @@ export default function Dashboard() {
           map={state.interview}
         />
       </section>
+
+      <ProjectBars projects={state.projects} />
 
       {/* Continue where you left */}
       <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">

@@ -1,5 +1,19 @@
 // Pure helper functions for progress maths. No React in here.
 
+// Progress of one project: all tasks, frontend tasks and backend tasks.
+export function projectProgress(project) {
+  const tasks = (project && project.tasks) || [];
+  const stat = (list) => {
+    const done = list.filter((t) => t.done).length;
+    return { done, total: list.length, percent: percent(done, list.length) };
+  };
+  return {
+    all: stat(tasks),
+    frontend: stat(tasks.filter((t) => t.category === "frontend")),
+    backend: stat(tasks.filter((t) => t.category === "backend")),
+  };
+}
+
 // percent = round(done / total * 100). Safe when total is 0.
 export function percent(done, total) {
   if (!total || total <= 0) return 0;
@@ -11,7 +25,8 @@ export function percent(done, total) {
 export function countDone(items, progressMap) {
   let done = 0;
   for (const item of items) {
-    if (progressMap && progressMap[item.id] && progressMap[item.id].done) done += 1;
+    if (progressMap && progressMap[item.id] && progressMap[item.id].done)
+      done += 1;
   }
   return { done, total: items.length, percent: percent(done, items.length) };
 }

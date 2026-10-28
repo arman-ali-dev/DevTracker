@@ -3,6 +3,7 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 import {
   BookOpen,
   Code2,
+  FolderKanban,
   LayoutDashboard,
   Map,
   Menu,
@@ -21,6 +22,7 @@ const links = [
   { to: "/dsa", label: "DSA", icon: Code2 },
   { to: "/interview", label: "Interview", icon: MessageSquare },
   { to: "/settings", label: "Settings", icon: SettingsIcon },
+  { to: "/projects", label: "Projects", icon: FolderKanban },
 ];
 
 function NavList({ onNavigate }) {

@@ -1,5 +1,5 @@
 // Safe localStorage helpers. Every call is wrapped in try/catch.
-export const STORAGE_KEY = 'prep-tracker:v1';
+export const STORAGE_KEY = "prep-tracker:v1";
 export const CURRENT_VERSION = 1;
 
 export function emptyState() {
@@ -8,20 +8,22 @@ export function emptyState() {
     roadmap: {},
     dsa: {},
     interview: {},
-    settings: { theme: 'light' },
+    projects: [],
+    settings: { theme: "light" },
   };
 }
 
 // Placeholder for future data changes. Today it only fills missing parts.
 export function migrate(data) {
   const base = emptyState();
-  const src = data && typeof data === 'object' ? data : {};
+  const src = data && typeof data === "object" ? data : {};
   // Example for the future: if (src.version === 1) { ...convert to 2... }
   return {
     version: CURRENT_VERSION,
     roadmap: { ...base.roadmap, ...(src.roadmap || {}) },
     dsa: { ...base.dsa, ...(src.dsa || {}) },
     interview: { ...base.interview, ...(src.interview || {}) },
+    projects: Array.isArray(src.projects) ? src.projects : [],
     settings: { ...base.settings, ...(src.settings || {}) },
   };
 }
