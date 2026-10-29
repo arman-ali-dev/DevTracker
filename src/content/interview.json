@@ -634,38 +634,45 @@
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
-    "question": "What is an inner class in Java?"
+    "question": "What do you mean by defensive copies?"
   },
   {
     "id": "java-basics-092",
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
-    "question": "What are the types of inner classes in Java?"
+    "question": "What is an inner class in Java?"
   },
   {
     "id": "java-basics-093",
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
-    "question": "What is an anonymous class?"
+    "question": "What are the types of inner classes in Java?"
   },
   {
     "id": "java-basics-094",
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
-    "question": "What is the difference between final, finally, and finalize?"
+    "question": "What is an anonymous class?"
   },
   {
     "id": "java-basics-095",
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
-    "question": "What is method hiding?"
+    "question": "What is the difference between final, finally, and finalize?"
   },
   {
     "id": "java-basics-096",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is method hiding?"
+  },
+  {
+    "id": "java-basics-097",
     "group": "Oops",
     "topic": "Oops",
     "priority": "must",
