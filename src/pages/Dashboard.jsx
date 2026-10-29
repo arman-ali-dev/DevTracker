@@ -23,7 +23,6 @@ const phaseItems = roadmap.map((phase) => ({
   items: roadmapItems.filter((i) => i.phaseId === phase.id),
 }));
 
-// Per-project bars: frontend and backend for each project.
 function ProjectBars({ projects }) {
   return (
     <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900">
