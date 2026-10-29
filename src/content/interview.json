@@ -418,5 +418,257 @@
     "topic": "Java Fundamentals",
     "priority": "must",
     "question": "What is type erasure in Java generics?"
+  },
+  {
+    "id": "java-basics-061",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are the four pillars of OOP? Explain each with a real-world example."
+  },
+  {
+    "id": "java-basics-062",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between abstraction and encapsulation?"
+  },
+  {
+    "id": "java-basics-063",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is encapsulation, and how do you achieve it in Java?"
+  },
+  {
+    "id": "java-basics-064",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is a constructor?"
+  },
+  {
+    "id": "java-basics-065",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "When is a constructor called?"
+  },
+  {
+    "id": "java-basics-066",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are the different types of constructors in Java?"
+  },
+  {
+    "id": "java-basics-067",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can a constructor be overloaded?"
+  },
+  {
+    "id": "java-basics-068",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can a constructor be inherited or overridden?"
+  },
+  {
+    "id": "java-basics-069",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can a constructor be private?"
+  },
+  {
+    "id": "java-basics-070",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can we call one constructor from another constructor?"
+  },
+  {
+    "id": "java-basics-071",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between a constructor and a method?"
+  },
+  {
+    "id": "java-basics-072",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the this keyword?"
+  },
+  {
+    "id": "java-basics-073",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Why doesn't Java support multiple inheritance with classes?"
+  },
+  {
+    "id": "java-basics-074",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the diamond problem?"
+  },
+  {
+    "id": "java-basics-075",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the super keyword?"
+  },
+  {
+    "id": "java-basics-076",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between method overloading and method overriding?"
+  },
+  {
+    "id": "java-basics-077",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between compile-time polymorphism and runtime polymorphism?"
+  },
+  {
+    "id": "java-basics-078",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are the rules for method overriding?"
+  },
+  {
+    "id": "java-basics-079",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can you override static, private, or final methods?"
+  },
+  {
+    "id": "java-basics-080",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between an abstract class and an interface, and when would you choose each?"
+  },
+  {
+    "id": "java-basics-081",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are default and static methods in interfaces?"
+  },
+  {
+    "id": "java-basics-082",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are the four access modifiers in Java?"
+  },
+  {
+    "id": "java-basics-083",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the meaning of each access modifier?"
+  },
+  {
+    "id": "java-basics-084",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What does the static keyword mean?"
+  },
+  {
+    "id": "java-basics-085",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "How is the final keyword used with variables, methods, and classes?"
+  },
+  {
+    "id": "java-basics-086",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between == and equals()?"
+  },
+  {
+    "id": "java-basics-087",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are upcasting and downcasting?"
+  },
+  {
+    "id": "java-basics-088",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between composition and inheritance?"
+  },
+  {
+    "id": "java-basics-089",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is a static block?"
+  },
+  {
+    "id": "java-basics-090",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "How do you create an immutable class in Java?"
+  },
+  {
+    "id": "java-basics-091",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is an inner class in Java?"
+  },
+  {
+    "id": "java-basics-092",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are the types of inner classes in Java?"
+  },
+  {
+    "id": "java-basics-093",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is an anonymous class?"
+  },
+  {
+    "id": "java-basics-094",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between final, finally, and finalize?"
+  },
+  {
+    "id": "java-basics-095",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is method hiding?"
+  },
+  {
+    "id": "java-basics-096",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the relationship between equals() and hashCode()?"
   }
 ]

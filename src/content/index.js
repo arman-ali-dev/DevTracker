@@ -17,7 +17,6 @@ export const roadmapItems = roadmap.flatMap((phase) =>
   ),
 );
 
-// In dev mode, log a clear error when an id is used twice in one file.
 if (import.meta.env.DEV) {
   const checks = [
     ["roadmap.json (items)", roadmapItems],
