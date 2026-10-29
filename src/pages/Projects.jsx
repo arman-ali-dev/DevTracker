@@ -15,7 +15,6 @@ const CATEGORIES = [
 const inputClass =
   "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100";
 
-// One task row. Memoised so only the changed row re-renders.
 const TaskRow = memo(function TaskRow({ projectId, task, onToggle, onDelete }) {
   return (
     <li className="flex items-center gap-3 py-1.5">
@@ -41,7 +40,6 @@ const TaskRow = memo(function TaskRow({ projectId, task, onToggle, onDelete }) {
   );
 });
 
-// Small form to add a task in one category.
 function AddTaskForm({ label, onAdd }) {
   const [text, setText] = useState("");
 
