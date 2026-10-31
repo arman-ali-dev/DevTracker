@@ -166,7 +166,6 @@ export default function Interview() {
   const must = useMemo(() => countDone(mustItems, map), [map]);
   const shownCount = visible.reduce((n, g) => n + g.shown.length, 0);
 
-  // Pick a random question with confidence = weak.
   function pickRandomWeak() {
     const weak = interview.filter(
       (item) => map[item.id] && map[item.id].confidence === "weak",
@@ -178,7 +177,6 @@ export default function Interview() {
       return;
     }
     const pick = weak[Math.floor(Math.random() * weak.length)];
-    // Clear filters so the question is visible.
     setTopic("all");
     setPriority("all");
     setStatus("all");
