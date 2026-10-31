@@ -677,5 +677,75 @@
     "topic": "Oops",
     "priority": "must",
     "question": "What is the relationship between equals() and hashCode()?"
+  },
+  {
+    "id": "java-basics-098",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Is java 100% Object Oriented?"
+  },
+  {
+    "id": "java-basics-099",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Execution's order: static block, instance block, constructor"
+  },
+  {
+    "id": "java-basics-100",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Can we overload a method only changing by return type?"
+  },
+  {
+    "id": "java-basics-101",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is Object class?"
+  },
+  {
+    "id": "java-basics-102",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is toString()?"
+  },
+  {
+    "id": "java-basics-103",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is getClass()?"
+  },
+  {
+    "id": "java-basics-104",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is hashCode()?"
+  },
+  {
+    "id": "java-basics-105",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What is the difference between Association, aggregation and composition?"
+  },
+  {
+    "id": "java-basics-106",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "What are types of inheritance?"
+  },
+  {
+    "id": "java-basics-107",
+    "group": "Oops",
+    "topic": "Oops",
+    "priority": "must",
+    "question": "Why interface allowed for multiple inheritance?"
   }
 ]

@@ -35,8 +35,6 @@ const confidenceOptions = [
   ...CONFIDENCE.map((c) => ({ value: c, label: c })),
 ];
 
-// One question row. Memoised so only the changed row re-renders.
-// focusToken is > 0 only for the row picked by "Random weak question".
 const QuestionRow = memo(function QuestionRow({
   q,
   entry,
@@ -49,7 +47,6 @@ const QuestionRow = memo(function QuestionRow({
   const confidence = (entry && entry.confidence) || "none";
   const answer = (entry && entry.answer) || "";
 
-  // Open the answer box and scroll to this row when it is picked.
   useEffect(() => {
     if (focusToken > 0) {
       setAnswerOpen(true);
