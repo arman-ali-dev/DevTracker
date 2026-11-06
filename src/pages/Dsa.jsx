@@ -20,7 +20,6 @@ const difficultyOptions = [
   { value: "Medium", label: "Medium" },
   { value: "Hard", label: "Hard" },
 ];
-// kjig
 const statusOptions = [
   { value: "all", label: "All" },
   { value: "done", label: "Done" },
