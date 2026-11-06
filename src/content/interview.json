@@ -1153,5 +1153,166 @@
     "topic": "Collection Framework",
     "priority": "must",
     "question": "What is BlockingQueue, and where is it used?"
+  },
+  {
+    "id": "java-basics-166",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Explain the Java exception hierarchy."
+  },
+  {
+    "id": "java-basics-167",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is the difference between Exception and Error?"
+  },
+  {
+    "id": "java-basics-168",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Should you catch errors like StackOverflowError or OutOfMemoryError?"
+  },
+  {
+    "id": "java-basics-169",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is the difference between checked and unchecked exceptions, and why did Java design them this way?"
+  },
+  {
+    "id": "java-basics-170",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "How does the try-catch-finally flow work?"
+  },
+  {
+    "id": "java-basics-171",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Can you have try without catch?"
+  },
+  {
+    "id": "java-basics-172",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Does the finally block always execute? In which cases does it not?"
+  },
+  {
+    "id": "java-basics-173",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What does a method return if both the try block and the finally block contain a return statement?"
+  },
+  {
+    "id": "java-basics-174",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Why must specific catch blocks come before general ones?"
+  },
+  {
+    "id": "java-basics-175",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is multi-catch (Java 7+)?"
+  },
+  {
+    "id": "java-basics-176",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is the difference between throw and throws?"
+  },
+  {
+    "id": "java-basics-177",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "How do you create a custom exception, and how do you decide between making it checked or unchecked?"
+  },
+  {
+    "id": "java-basics-178",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is try-with-resources, and how does it work with AutoCloseable?"
+  },
+  {
+    "id": "java-basics-179",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "In what order are resources closed?"
+  },
+  {
+    "id": "java-basics-180",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is exception chaining?"
+  },
+  {
+    "id": "java-basics-181",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "How does an exception propagate up the call stack if it is not caught?"
+  },
+  {
+    "id": "java-basics-182",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What are the common causes of NullPointerException, and how do you prevent it?"
+  },
+  {
+    "id": "java-basics-183",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What are the rules for exceptions when overriding a method (checked vs unchecked in the child method)?"
+  },
+  {
+    "id": "java-basics-184",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What are suppressed exceptions in try-with-resources?"
+  },
+  {
+    "id": "java-basics-185",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "Why should exceptions not be used for normal flow control?"
+  },
+  {
+    "id": "java-basics-186",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What happens if an exception is thrown inside the finally block?"
+  },
+  {
+    "id": "java-basics-187",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is InterruptedException, and how should we handle it properly?"
+  },
+  {
+    "id": "java-basics-188",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
+    "priority": "must",
+    "question": "What is the difference between ClassNotFoundException and NoClassDefFoundError?"
   }
 ]
