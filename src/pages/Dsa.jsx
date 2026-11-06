@@ -112,7 +112,6 @@ export default function Dsa() {
   const filtering =
     difficulty !== "all" || status !== "all" || query.trim() !== "";
 
-  // Apply filters to each category.
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
     return groups
@@ -182,7 +181,6 @@ export default function Dsa() {
       )}
 
       {visible.map((g, idx) => {
-        // Percent uses the whole category, not only the filtered rows.
         const s = countDone(g.items, map);
         return (
           <Accordion
