@@ -4,434 +4,574 @@
     "category": "Arrays",
     "title": "Find the Maximum and Minimum Element in an Array",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Find+the+Maximum+and+Minimum+Element+in+an+Array"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Find%20the%20Maximum%20and%20Minimum%20Element%20in%20an%20Array"
   },
   {
     "id": "dsa-arrays-002",
     "category": "Arrays",
     "title": "Reverse an Array in Place",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Reverse+an+Array+in+Place"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Reverse%20an%20Array%20in%20Place"
   },
   {
     "id": "dsa-arrays-003",
     "category": "Arrays",
     "title": "Find the Second Largest Element",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Find+the+Second+Largest+Element"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Find%20the%20Second%20Largest%20Element"
   },
   {
     "id": "dsa-arrays-004",
     "category": "Arrays",
     "title": "Check if Array is Sorted",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Check+if+Array+is+Sorted"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Check%20if%20Array%20is%20Sorted"
   },
   {
     "id": "dsa-arrays-005",
+    "category": "Arrays",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/"
+  },
+  {
+    "id": "dsa-arrays-006",
+    "category": "Arrays",
+    "title": "Max Consecutive Ones",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/max-consecutive-ones/"
+  },
+  {
+    "id": "dsa-arrays-007",
+    "category": "Arrays",
+    "title": "Maximum Average Subarray I",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
+  },
+  {
+    "id": "dsa-arrays-008",
     "category": "Arrays",
     "title": "Move Zeroes",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/move-zeroes/"
   },
   {
-    "id": "dsa-arrays-006",
+    "id": "dsa-arrays-009",
     "category": "Arrays",
     "title": "Find the Duplicate Number",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/find-the-duplicate-number/"
   },
   {
-    "id": "dsa-arrays-007",
+    "id": "dsa-arrays-010",
     "category": "Arrays",
     "title": "Find All Duplicates in an Array",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/find-all-duplicates-in-an-array/"
   },
   {
-    "id": "dsa-arrays-008",
+    "id": "dsa-arrays-011",
     "category": "Arrays",
     "title": "Remove Duplicates from Sorted Array",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
   },
   {
-    "id": "dsa-arrays-009",
+    "id": "dsa-arrays-012",
     "category": "Arrays",
     "title": "Rotate Array",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/rotate-array/"
   },
   {
-    "id": "dsa-arrays-010",
+    "id": "dsa-arrays-013",
     "category": "Arrays",
     "title": "Missing Number",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/missing-number/"
   },
   {
-    "id": "dsa-arrays-011",
+    "id": "dsa-arrays-014",
     "category": "Arrays",
     "title": "Single Number",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/single-number/"
   },
   {
-    "id": "dsa-arrays-012",
+    "id": "dsa-arrays-015",
     "category": "Arrays",
     "title": "Running Sum of 1d Array",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/running-sum-of-1d-array/"
   },
   {
-    "id": "dsa-arrays-013",
+    "id": "dsa-arrays-016",
     "category": "Arrays",
     "title": "Maximum Number of Words Found in Sentences",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/"
   },
   {
-    "id": "dsa-arrays-014",
+    "id": "dsa-arrays-017",
     "category": "Arrays",
     "title": "Kids With the Greatest Number of Candies",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/"
   },
   {
-    "id": "dsa-arrays-015",
+    "id": "dsa-arrays-018",
     "category": "Arrays",
     "title": "How Many Numbers Are Smaller Than the Current Number",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/"
   },
   {
-    "id": "dsa-arrays-016",
+    "id": "dsa-arrays-019",
     "category": "Arrays",
     "title": "Distribute Candies",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/distribute-candies/"
   },
   {
-    "id": "dsa-arrays-017",
+    "id": "dsa-arrays-020",
     "category": "Arrays",
     "title": "Matrix Diagonal Sum",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/matrix-diagonal-sum/"
   },
   {
-    "id": "dsa-arrays-018",
+    "id": "dsa-arrays-021",
     "category": "Arrays",
     "title": "Find Numbers with Even Number of Digits",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
   },
   {
-    "id": "dsa-arrays-019",
+    "id": "dsa-arrays-022",
+    "category": "Arrays",
+    "title": "Number of Good Pairs",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/number-of-good-pairs/"
+  },
+  {
+    "id": "dsa-arrays-023",
+    "category": "Arrays",
+    "title": "Find Lucky Integer in an Array",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/find-lucky-integer-in-an-array/"
+  },
+  {
+    "id": "dsa-arrays-024",
+    "category": "Arrays",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  {
+    "id": "dsa-arrays-025",
+    "category": "Arrays",
+    "title": "Contains Duplicate II",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/contains-duplicate-ii/"
+  },
+  {
+    "id": "dsa-arrays-026",
     "category": "Arrays",
     "title": "Two Sum",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/two-sum/"
   },
   {
-    "id": "dsa-arrays-020",
+    "id": "dsa-arrays-027",
     "category": "Arrays",
     "title": "3Sum",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/3sum/"
   },
   {
-    "id": "dsa-arrays-021",
+    "id": "dsa-arrays-028",
     "category": "Arrays",
     "title": "4Sum",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/4sum/"
   },
   {
-    "id": "dsa-arrays-022",
+    "id": "dsa-arrays-029",
     "category": "Arrays",
     "title": "Maximum Subarray",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/maximum-subarray/"
   },
   {
-    "id": "dsa-arrays-023",
+    "id": "dsa-arrays-030",
     "category": "Arrays",
     "title": "Best Time to Buy and Sell Stock",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
   },
   {
-    "id": "dsa-arrays-024",
+    "id": "dsa-arrays-031",
     "category": "Arrays",
     "title": "Product of Array Except Self",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/product-of-array-except-self/"
   },
   {
-    "id": "dsa-arrays-025",
+    "id": "dsa-arrays-032",
+    "category": "Arrays",
+    "title": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+  },
+  {
+    "id": "dsa-arrays-033",
+    "category": "Arrays",
+    "title": "Minimum Consecutive Cards to Pick Up",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/"
+  },
+  {
+    "id": "dsa-arrays-034",
+    "category": "Arrays",
+    "title": "Max Sum of a Pair With Equal Sum of Digits",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/"
+  },
+  {
+    "id": "dsa-arrays-035",
     "category": "Arrays",
     "title": "Majority Element",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/majority-element/"
   },
   {
-    "id": "dsa-arrays-026",
+    "id": "dsa-arrays-036",
     "category": "Arrays",
     "title": "Majority Element II",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/majority-element-ii/"
   },
   {
-    "id": "dsa-arrays-027",
+    "id": "dsa-arrays-037",
     "category": "Arrays",
     "title": "Sort Colors",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/sort-colors/"
   },
   {
-    "id": "dsa-arrays-028",
+    "id": "dsa-arrays-038",
     "category": "Arrays",
     "title": "Merge Sorted Array",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/merge-sorted-array/"
   },
   {
-    "id": "dsa-arrays-029",
+    "id": "dsa-arrays-039",
     "category": "Arrays",
     "title": "Maximum Product Subarray",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/maximum-product-subarray/"
   },
   {
-    "id": "dsa-arrays-030",
+    "id": "dsa-arrays-040",
     "category": "Arrays",
     "title": "Trapping Rain Water",
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/trapping-rain-water/"
   },
   {
-    "id": "dsa-arrays-031",
+    "id": "dsa-arrays-041",
     "category": "Arrays",
     "title": "Jump Game",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/jump-game/"
   },
   {
-    "id": "dsa-arrays-032",
+    "id": "dsa-arrays-042",
     "category": "Arrays",
     "title": "Peak Index in a Mountain Array",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/"
   },
   {
-    "id": "dsa-arrays-033",
+    "id": "dsa-arrays-043",
     "category": "Arrays",
     "title": "Squares of a Sorted Array",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/squares-of-a-sorted-array/"
   },
   {
-    "id": "dsa-arrays-034",
+    "id": "dsa-arrays-044",
     "category": "Arrays",
     "title": "Search a 2D Matrix II",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/"
   },
   {
-    "id": "dsa-arrays-035",
+    "id": "dsa-arrays-045",
     "category": "Arrays",
     "title": "Two Sum II - Input Array Is Sorted",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
   },
   {
-    "id": "dsa-arrays-036",
+    "id": "dsa-arrays-046",
     "category": "Arrays",
     "title": "Remove Duplicates from Sorted Array II",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/"
   },
   {
+    "id": "dsa-arrays-047",
+    "category": "Arrays",
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "id": "dsa-arrays-048",
+    "category": "Arrays",
+    "title": "Binary Subarrays With Sum",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+  },
+  {
+    "id": "dsa-arrays-049",
+    "category": "Arrays",
+    "title": "Maximum Erasure Value",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/maximum-erasure-value/"
+  },
+  {
     "id": "dsa-strings-001",
-    "category": "Strings",
-    "title": "Reverse String",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/reverse-string/"
-  },
-  {
-    "id": "dsa-strings-002",
-    "category": "Strings",
-    "title": "Valid Palindrome",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/valid-palindrome/"
-  },
-  {
-    "id": "dsa-strings-003",
-    "category": "Strings",
-    "title": "Count Vowels and Consonants",
-    "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Count+Vowels+and+Consonants"
-  },
-  {
-    "id": "dsa-strings-004",
-    "category": "Strings",
-    "title": "Remove All Spaces from a String",
-    "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Remove+All+Spaces+from+a+String"
-  },
-  {
-    "id": "dsa-strings-005",
-    "category": "Strings",
-    "title": "First Unique Character in a String",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
-  },
-  {
-    "id": "dsa-strings-006",
-    "category": "Strings",
-    "title": "Valid Anagram",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/valid-anagram/"
-  },
-  {
-    "id": "dsa-strings-007",
-    "category": "Strings",
-    "title": "Count Occurrences of Each Character",
-    "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Count+Occurrences+of+Each+Character"
-  },
-  {
-    "id": "dsa-strings-008",
-    "category": "Strings",
-    "title": "Is Subsequence",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/is-subsequence/"
-  },
-  {
-    "id": "dsa-strings-009",
-    "category": "Strings",
-    "title": "Robot Return to Origin",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/robot-return-to-origin/"
-  },
-  {
-    "id": "dsa-strings-010",
-    "category": "Strings",
-    "title": "Check If Two String Arrays are Equivalent",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
-  },
-  {
-    "id": "dsa-strings-011",
-    "category": "Strings",
-    "title": "Shuffle String",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/shuffle-string/"
-  },
-  {
-    "id": "dsa-strings-012",
-    "category": "Strings",
-    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/"
-  },
-  {
-    "id": "dsa-strings-013",
     "category": "Strings",
     "title": "Reverse Only Letters",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/reverse-only-letters/"
   },
   {
+    "id": "dsa-strings-002",
+    "category": "Strings",
+    "title": "Length of Last Word",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/length-of-last-word/"
+  },
+  {
+    "id": "dsa-strings-003",
+    "category": "Strings",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/reverse-string/"
+  },
+  {
+    "id": "dsa-strings-004",
+    "category": "Strings",
+    "title": "Check if the Sentence Is Pangram",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/"
+  },
+  {
+    "id": "dsa-strings-005",
+    "category": "Strings",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "id": "dsa-strings-006",
+    "category": "Strings",
+    "title": "Count Vowels and Consonants",
+    "difficulty": "Easy",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Count%20Vowels%20and%20Consonants"
+  },
+  {
+    "id": "dsa-strings-007",
+    "category": "Strings",
+    "title": "Remove All Spaces from a String",
+    "difficulty": "Easy",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Remove%20All%20Spaces%20from%20a%20String"
+  },
+  {
+    "id": "dsa-strings-008",
+    "category": "Strings",
+    "title": "First Unique Character in a String",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+  },
+  {
+    "id": "dsa-strings-009",
+    "category": "Strings",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "id": "dsa-strings-010",
+    "category": "Strings",
+    "title": "Count Occurrences of Each Character",
+    "difficulty": "Easy",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Count%20Occurrences%20of%20Each%20Character"
+  },
+  {
+    "id": "dsa-strings-011",
+    "category": "Strings",
+    "title": "Is Subsequence",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/is-subsequence/"
+  },
+  {
+    "id": "dsa-strings-012",
+    "category": "Strings",
+    "title": "Robot Return to Origin",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/robot-return-to-origin/"
+  },
+  {
+    "id": "dsa-strings-013",
+    "category": "Strings",
+    "title": "Check If Two String Arrays are Equivalent",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
+  },
+  {
     "id": "dsa-strings-014",
+    "category": "Strings",
+    "title": "Shuffle String",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/shuffle-string/"
+  },
+  {
+    "id": "dsa-strings-015",
+    "category": "Strings",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/"
+  },
+  {
+    "id": "dsa-strings-016",
+    "category": "Strings",
+    "title": "Path Crossing",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/path-crossing/"
+  },
+  {
+    "id": "dsa-strings-017",
+    "category": "Strings",
+    "title": "Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+  },
+  {
+    "id": "dsa-strings-018",
+    "category": "Strings",
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/"
+  },
+  {
+    "id": "dsa-strings-019",
     "category": "Strings",
     "title": "Longest Substring Without Repeating Characters",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
   },
   {
-    "id": "dsa-strings-015",
+    "id": "dsa-strings-020",
     "category": "Strings",
     "title": "Longest Palindromic Substring",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/longest-palindromic-substring/"
   },
   {
-    "id": "dsa-strings-016",
+    "id": "dsa-strings-021",
     "category": "Strings",
     "title": "Group Anagrams",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/group-anagrams/"
   },
   {
-    "id": "dsa-strings-017",
+    "id": "dsa-strings-022",
+    "category": "Strings",
+    "title": "Get Equal Substrings Within Budget",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/get-equal-substrings-within-budget/"
+  },
+  {
+    "id": "dsa-strings-023",
     "category": "Strings",
     "title": "Valid Parentheses",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/valid-parentheses/"
   },
   {
-    "id": "dsa-strings-018",
+    "id": "dsa-strings-024",
     "category": "Strings",
     "title": "Minimum Window Substring",
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/minimum-window-substring/"
   },
   {
-    "id": "dsa-strings-019",
+    "id": "dsa-strings-025",
     "category": "Strings",
     "title": "String Compression",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/string-compression/"
   },
   {
-    "id": "dsa-strings-020",
+    "id": "dsa-strings-026",
     "category": "Strings",
     "title": "Longest Common Prefix",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/longest-common-prefix/"
   },
   {
-    "id": "dsa-strings-021",
+    "id": "dsa-strings-027",
     "category": "Strings",
     "title": "Count and Say",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/count-and-say/"
   },
   {
-    "id": "dsa-strings-022",
+    "id": "dsa-strings-028",
     "category": "Strings",
     "title": "Reverse Words in a String",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/reverse-words-in-a-string/"
   },
   {
-    "id": "dsa-strings-023",
+    "id": "dsa-strings-029",
     "category": "Strings",
     "title": "Isomorphic Strings",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/isomorphic-strings/"
   },
   {
-    "id": "dsa-strings-024",
+    "id": "dsa-strings-030",
     "category": "Strings",
     "title": "Word Pattern",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/word-pattern/"
   },
   {
-    "id": "dsa-strings-025",
+    "id": "dsa-strings-031",
     "category": "Strings",
     "title": "Backspace String Compare",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/backspace-string-compare/"
   },
   {
-    "id": "dsa-strings-026",
+    "id": "dsa-strings-032",
     "category": "Strings",
     "title": "Find the Difference",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/find-the-difference/"
+  },
+  {
+    "id": "dsa-strings-033",
+    "category": "Strings",
+    "title": "Sort Characters By Frequency",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/sort-characters-by-frequency/"
   },
   {
     "id": "dsa-hashmap-001",
@@ -445,49 +585,105 @@
     "category": "HashMap and Hashing",
     "title": "Subarray with Zero Sum",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Subarray+with+Zero+Sum"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Subarray%20with%20Zero%20Sum"
   },
   {
     "id": "dsa-hashmap-003",
+    "category": "HashMap and Hashing",
+    "title": "Ransom Note",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/ransom-note/"
+  },
+  {
+    "id": "dsa-hashmap-004",
     "category": "HashMap and Hashing",
     "title": "Intersection of Two Arrays",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/intersection-of-two-arrays/"
   },
   {
-    "id": "dsa-hashmap-004",
+    "id": "dsa-hashmap-005",
     "category": "HashMap and Hashing",
     "title": "Intersection of Two Arrays II",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
   },
   {
-    "id": "dsa-hashmap-005",
+    "id": "dsa-hashmap-006",
     "category": "HashMap and Hashing",
     "title": "Intersection of Multiple Arrays",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/intersection-of-multiple-arrays/"
   },
   {
-    "id": "dsa-hashmap-006",
+    "id": "dsa-hashmap-007",
     "category": "HashMap and Hashing",
     "title": "Longest Consecutive Sequence",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
   },
   {
-    "id": "dsa-hashmap-007",
+    "id": "dsa-hashmap-008",
     "category": "HashMap and Hashing",
     "title": "Jewels and Stones",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/jewels-and-stones/"
   },
   {
-    "id": "dsa-hashmap-008",
+    "id": "dsa-hashmap-009",
     "category": "HashMap and Hashing",
     "title": "First Letter to Appear Twice",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/first-letter-to-appear-twice/"
+  },
+  {
+    "id": "dsa-hashmap-010",
+    "category": "HashMap and Hashing",
+    "title": "Check if All Characters Have Equal Number of Occurrences",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/"
+  },
+  {
+    "id": "dsa-hashmap-011",
+    "category": "HashMap and Hashing",
+    "title": "Maximum Number of Balloons",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/maximum-number-of-balloons/"
+  },
+  {
+    "id": "dsa-hashmap-012",
+    "category": "HashMap and Hashing",
+    "title": "Find Players With Zero or One Losses",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-players-with-zero-or-one-losses/"
+  },
+  {
+    "id": "dsa-hashmap-013",
+    "category": "HashMap and Hashing",
+    "title": "Destination City",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/destination-city/"
+  },
+  {
+    "id": "dsa-hashmap-014",
+    "category": "HashMap and Hashing",
+    "title": "Sum of Unique Elements",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/sum-of-unique-elements/"
+  },
+  {
+    "id": "dsa-hashmap-015",
+    "category": "HashMap and Hashing",
+    "title": "Unique Number of Occurrences",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/unique-number-of-occurrences/"
+  },
+  {
+    "id": "dsa-hashmap-016",
+    "category": "HashMap and Hashing",
+    "title": "Count Number of Pairs With Absolute Difference K",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/"
   },
   {
     "id": "dsa-linkedlist-001",
@@ -541,30 +737,30 @@
   {
     "id": "dsa-linkedlist-008",
     "category": "Linked List",
+    "title": "Remove Linked List Elements",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/remove-linked-list-elements/"
+  },
+  {
+    "id": "dsa-linkedlist-009",
+    "category": "Linked List",
     "title": "Merge Two Sorted Lists",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
   },
   {
-    "id": "dsa-linkedlist-009",
+    "id": "dsa-linkedlist-010",
     "category": "Linked List",
     "title": "Add Two Numbers",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/add-two-numbers/"
   },
   {
-    "id": "dsa-linkedlist-010",
+    "id": "dsa-linkedlist-011",
     "category": "Linked List",
     "title": "Flatten a Multilevel Doubly Linked List",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/"
-  },
-  {
-    "id": "dsa-linkedlist-011",
-    "category": "Linked List",
-    "title": "Copy List with Random Pointer",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/copy-list-with-random-pointer/"
   },
   {
     "id": "dsa-linkedlist-012",
@@ -588,11 +784,39 @@
     "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
   },
   {
+    "id": "dsa-linkedlist-015",
+    "category": "Linked List",
+    "title": "Delete the Middle Node of a Linked List",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/"
+  },
+  {
+    "id": "dsa-linkedlist-016",
+    "category": "Linked List",
+    "title": "Remove Duplicates from Sorted List II",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/"
+  },
+  {
+    "id": "dsa-linkedlist-017",
+    "category": "Linked List",
+    "title": "Swapping Nodes in a Linked List",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list/"
+  },
+  {
+    "id": "dsa-linkedlist-018",
+    "category": "Linked List",
+    "title": "Merge Nodes in Between Zeros",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/merge-nodes-in-between-zeros/"
+  },
+  {
     "id": "dsa-stackqueue-001",
     "category": "Stack and Queue",
     "title": "Implement Stack using Arrays",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Implement+Stack+using+Arrays"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Implement%20Stack%20using%20Arrays"
   },
   {
     "id": "dsa-stackqueue-002",
@@ -611,23 +835,23 @@
   {
     "id": "dsa-stackqueue-004",
     "category": "Stack and Queue",
-    "title": "Previous Greater Element",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Previous+Greater+Element"
+    "title": "Final Prices With a Special Discount in a Shop",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/"
   },
   {
     "id": "dsa-stackqueue-005",
     "category": "Stack and Queue",
-    "title": "Previous Smaller Element",
+    "title": "Previous Greater Element",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Previous+Smaller+Element"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Previous%20Greater%20Element"
   },
   {
     "id": "dsa-stackqueue-006",
     "category": "Stack and Queue",
-    "title": "Online Stock Span",
+    "title": "Previous Smaller Element",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/online-stock-span/"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Previous%20Smaller%20Element"
   },
   {
     "id": "dsa-stackqueue-007",
@@ -646,30 +870,72 @@
   {
     "id": "dsa-stackqueue-009",
     "category": "Stack and Queue",
+    "title": "Simplify Path",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/simplify-path/"
+  },
+  {
+    "id": "dsa-stackqueue-010",
+    "category": "Stack and Queue",
+    "title": "Make The String Great",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/make-the-string-great/"
+  },
+  {
+    "id": "dsa-stackqueue-011",
+    "category": "Stack and Queue",
+    "title": "Removing Stars From a String",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/removing-stars-from-a-string/"
+  },
+  {
+    "id": "dsa-stackqueue-012",
+    "category": "Stack and Queue",
+    "title": "Daily Temperatures",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/daily-temperatures/"
+  },
+  {
+    "id": "dsa-stackqueue-013",
+    "category": "Stack and Queue",
+    "title": "Validate Stack Sequences",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/validate-stack-sequences/"
+  },
+  {
+    "id": "dsa-stackqueue-014",
+    "category": "Stack and Queue",
     "title": "Implement Queue using Stacks",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/implement-queue-using-stacks/"
   },
   {
-    "id": "dsa-stackqueue-010",
+    "id": "dsa-stackqueue-015",
     "category": "Stack and Queue",
     "title": "Implement Stack using Queues",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/implement-stack-using-queues/"
   },
   {
-    "id": "dsa-stackqueue-011",
+    "id": "dsa-stackqueue-016",
     "category": "Stack and Queue",
     "title": "First Unique Character in a String",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/first-unique-character-in-a-string/"
   },
   {
-    "id": "dsa-stackqueue-012",
+    "id": "dsa-stackqueue-017",
     "category": "Stack and Queue",
     "title": "First Non-Repeating Character in a Stream",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+First+Non-Repeating+Character+in+a+Stream"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20First%20Non-Repeating%20Character%20in%20a%20Stream"
+  },
+  {
+    "id": "dsa-stackqueue-018",
+    "category": "Stack and Queue",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "url": "https://leetcode.com/problems/sliding-window-maximum/"
   },
   {
     "id": "dsa-bsearch-001",
@@ -732,14 +998,14 @@
     "category": "Binary Search",
     "title": "Aggressive Cows",
     "difficulty": "Hard",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Aggressive+Cows"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Aggressive%20Cows"
   },
   {
     "id": "dsa-bsearch-010",
     "category": "Binary Search",
     "title": "Book Allocation Problem",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Book+Allocation+Problem"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Book%20Allocation%20Problem"
   },
   {
     "id": "dsa-bsearch-011",
@@ -779,44 +1045,16 @@
   {
     "id": "dsa-backtrack-005",
     "category": "Recursion and Backtracking",
-    "title": "Word Search",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/word-search/"
-  },
-  {
-    "id": "dsa-backtrack-006",
-    "category": "Recursion and Backtracking",
     "title": "N-Queens",
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/n-queens/"
   },
   {
-    "id": "dsa-backtrack-007",
+    "id": "dsa-backtrack-006",
     "category": "Recursion and Backtracking",
     "title": "Sudoku Solver",
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/sudoku-solver/"
-  },
-  {
-    "id": "dsa-backtrack-008",
-    "category": "Recursion and Backtracking",
-    "title": "Letter Combinations of a Phone Number",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
-  },
-  {
-    "id": "dsa-backtrack-009",
-    "category": "Recursion and Backtracking",
-    "title": "Palindrome Partitioning",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/palindrome-partitioning/"
-  },
-  {
-    "id": "dsa-backtrack-010",
-    "category": "Recursion and Backtracking",
-    "title": "Rat in a Maze",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Rat+in+a+Maze"
   },
   {
     "id": "dsa-trees-001",
@@ -856,194 +1094,215 @@
   {
     "id": "dsa-trees-006",
     "category": "Trees",
+    "title": "Minimum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+  },
+  {
+    "id": "dsa-trees-007",
+    "category": "Trees",
     "title": "Balanced Binary Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/balanced-binary-tree/"
   },
   {
-    "id": "dsa-trees-007",
+    "id": "dsa-trees-008",
     "category": "Trees",
     "title": "Same Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/same-tree/"
   },
   {
-    "id": "dsa-trees-008",
+    "id": "dsa-trees-009",
     "category": "Trees",
     "title": "Invert Binary Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/invert-binary-tree/"
   },
   {
-    "id": "dsa-trees-009",
+    "id": "dsa-trees-010",
     "category": "Trees",
     "title": "Diameter of Binary Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
   },
   {
-    "id": "dsa-trees-010",
+    "id": "dsa-trees-011",
     "category": "Trees",
     "title": "Subtree of Another Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/subtree-of-another-tree/"
   },
   {
-    "id": "dsa-trees-011",
+    "id": "dsa-trees-012",
+    "category": "Trees",
+    "title": "Symmetric Tree",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/symmetric-tree/"
+  },
+  {
+    "id": "dsa-trees-013",
+    "category": "Trees",
+    "title": "Sum of Left Leaves",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/sum-of-left-leaves/"
+  },
+  {
+    "id": "dsa-trees-014",
     "category": "Trees",
     "title": "Lowest Common Ancestor of a Binary Tree",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
   },
   {
-    "id": "dsa-trees-012",
+    "id": "dsa-trees-015",
     "category": "Trees",
     "title": "Path Sum",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/path-sum/"
   },
   {
-    "id": "dsa-trees-013",
+    "id": "dsa-trees-016",
     "category": "Trees",
     "title": "Path Sum II",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/path-sum-ii/"
   },
   {
-    "id": "dsa-trees-014",
+    "id": "dsa-trees-017",
     "category": "Trees",
     "title": "Serialize and Deserialize Binary Tree",
     "difficulty": "Hard",
     "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
   },
   {
-    "id": "dsa-trees-015",
+    "id": "dsa-trees-018",
     "category": "Trees",
     "title": "Binary Tree Right Side View",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/binary-tree-right-side-view/"
   },
   {
-    "id": "dsa-trees-016",
+    "id": "dsa-trees-019",
     "category": "Trees",
     "title": "Left View of Binary Tree",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Left+View+of+Binary+Tree"
-  },
-  {
-    "id": "dsa-trees-017",
-    "category": "Trees",
-    "title": "Top View of Binary Tree",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Top+View+of+Binary+Tree"
-  },
-  {
-    "id": "dsa-trees-018",
-    "category": "Trees",
-    "title": "Bottom View of Binary Tree",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Bottom+View+of+Binary+Tree"
-  },
-  {
-    "id": "dsa-trees-019",
-    "category": "Trees",
-    "title": "Vertical Tree Traversal",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Vertical+Tree+Traversal"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Left%20View%20of%20Binary%20Tree"
   },
   {
     "id": "dsa-trees-020",
+    "category": "Trees",
+    "title": "Top View of Binary Tree",
+    "difficulty": "Medium",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Top%20View%20of%20Binary%20Tree"
+  },
+  {
+    "id": "dsa-trees-021",
+    "category": "Trees",
+    "title": "Bottom View of Binary Tree",
+    "difficulty": "Medium",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Bottom%20View%20of%20Binary%20Tree"
+  },
+  {
+    "id": "dsa-trees-022",
+    "category": "Trees",
+    "title": "Vertical Tree Traversal",
+    "difficulty": "Medium",
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Vertical%20Tree%20Traversal"
+  },
+  {
+    "id": "dsa-trees-023",
     "category": "Trees",
     "title": "Binary Tree Zigzag Level Order Traversal",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
   },
   {
-    "id": "dsa-trees-021",
+    "id": "dsa-trees-024",
     "category": "Trees",
     "title": "Nodes at K Distance from Root",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Nodes+at+K+Distance+from+Root"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Nodes%20at%20K%20Distance%20from%20Root"
   },
   {
-    "id": "dsa-trees-022",
+    "id": "dsa-trees-025",
     "category": "Trees",
     "title": "Binary Tree Paths",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/binary-tree-paths/"
   },
   {
-    "id": "dsa-trees-023",
+    "id": "dsa-trees-026",
     "category": "Trees",
     "title": "Maximum Width of Binary Tree",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
   },
   {
-    "id": "dsa-trees-024",
+    "id": "dsa-trees-027",
     "category": "Trees",
     "title": "Flatten Binary Tree to Linked List",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
   },
   {
-    "id": "dsa-trees-025",
+    "id": "dsa-trees-028",
     "category": "Trees",
     "title": "Search in a Binary Search Tree",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
   },
   {
-    "id": "dsa-trees-026",
+    "id": "dsa-trees-029",
     "category": "Trees",
     "title": "Insert into a Binary Search Tree",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
   },
   {
-    "id": "dsa-trees-027",
+    "id": "dsa-trees-030",
     "category": "Trees",
     "title": "Delete Node in a BST",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/delete-node-in-a-bst/"
   },
   {
-    "id": "dsa-trees-028",
+    "id": "dsa-trees-031",
     "category": "Trees",
     "title": "Validate Binary Search Tree",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/validate-binary-search-tree/"
   },
   {
-    "id": "dsa-trees-029",
+    "id": "dsa-trees-032",
     "category": "Trees",
     "title": "Kth Smallest Element in a BST",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
   },
   {
-    "id": "dsa-trees-030",
+    "id": "dsa-trees-033",
     "category": "Trees",
     "title": "Inorder Successor in BST",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/inorder-successor-in-bst/"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Inorder%20Successor%20in%20BST"
   },
   {
-    "id": "dsa-trees-031",
+    "id": "dsa-trees-034",
     "category": "Trees",
     "title": "Predecessor and Successor in BST",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Predecessor+and+Successor+in+BST"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Predecessor%20and%20Successor%20in%20BST"
   },
   {
-    "id": "dsa-trees-032",
+    "id": "dsa-trees-035",
     "category": "Trees",
     "title": "Construct Binary Search Tree from Preorder Traversal",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
   },
   {
-    "id": "dsa-trees-033",
+    "id": "dsa-trees-036",
     "category": "Trees",
     "title": "Lowest Common Ancestor of a Binary Search Tree",
     "difficulty": "Medium",
@@ -1054,42 +1313,42 @@
     "category": "Graphs",
     "title": "BFS Traversal",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+BFS+Traversal"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20BFS%20Traversal"
   },
   {
     "id": "dsa-graphs-002",
     "category": "Graphs",
     "title": "DFS Traversal",
     "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+DFS+Traversal"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20DFS%20Traversal"
   },
   {
     "id": "dsa-graphs-003",
     "category": "Graphs",
     "title": "Detect Cycle in Undirected Graph (DFS)",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Detect+Cycle+in+Undirected+Graph+%28DFS%29"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Detect%20Cycle%20in%20Undirected%20Graph%20%28DFS%29"
   },
   {
     "id": "dsa-graphs-004",
     "category": "Graphs",
     "title": "Detect Cycle in Undirected Graph (BFS)",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Detect+Cycle+in+Undirected+Graph+%28BFS%29"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Detect%20Cycle%20in%20Undirected%20Graph%20%28BFS%29"
   },
   {
     "id": "dsa-graphs-005",
     "category": "Graphs",
     "title": "Detect Cycle in Directed Graph (DFS)",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Detect+Cycle+in+Directed+Graph+%28DFS%29"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Detect%20Cycle%20in%20Directed%20Graph%20%28DFS%29"
   },
   {
     "id": "dsa-graphs-006",
     "category": "Graphs",
-    "title": "Topological Sort",
+    "title": "Topological Sort (Kahn's Algorithm and DFS)",
     "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Topological+Sort"
+    "url": "https://www.google.com/search?q=geeksforgeeks%20Topological%20Sort%20%28Kahn%27s%20Algorithm%20and%20DFS%29"
   },
   {
     "id": "dsa-graphs-007",
@@ -1108,351 +1367,22 @@
   {
     "id": "dsa-graphs-009",
     "category": "Graphs",
-    "title": "Number of Provinces",
+    "title": "Number of Connected Components in an Undirected Graph",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/number-of-provinces/"
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
   },
   {
     "id": "dsa-graphs-010",
-    "category": "Graphs",
-    "title": "Is Graph Bipartite?",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/is-graph-bipartite/"
-  },
-  {
-    "id": "dsa-graphs-011",
     "category": "Graphs",
     "title": "Flood Fill",
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/flood-fill/"
   },
   {
-    "id": "dsa-graphs-012",
+    "id": "dsa-graphs-011",
     "category": "Graphs",
     "title": "Course Schedule II",
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/course-schedule-ii/"
-  },
-  {
-    "id": "dsa-graphs-013",
-    "category": "Graphs",
-    "title": "Shortest Path in Unweighted Graph",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Shortest+Path+in+Unweighted+Graph"
-  },
-  {
-    "id": "dsa-graphs-014",
-    "category": "Graphs",
-    "title": "Dijkstra's Algorithm",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Dijkstra%27s+Algorithm"
-  },
-  {
-    "id": "dsa-graphs-015",
-    "category": "Graphs",
-    "title": "Find if Path Exists in Graph",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/find-if-path-exists-in-graph/"
-  },
-  {
-    "id": "dsa-graphs-016",
-    "category": "Graphs",
-    "title": "Clone Graph",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/clone-graph/"
-  },
-  {
-    "id": "dsa-graphs-017",
-    "category": "Graphs",
-    "title": "Word Ladder",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/word-ladder/"
-  },
-  {
-    "id": "dsa-graphs-018",
-    "category": "Graphs",
-    "title": "Surrounded Regions",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/surrounded-regions/"
-  },
-  {
-    "id": "dsa-dp-001",
-    "category": "Dynamic Programming",
-    "title": "Climbing Stairs",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/climbing-stairs/"
-  },
-  {
-    "id": "dsa-dp-002",
-    "category": "Dynamic Programming",
-    "title": "House Robber",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/house-robber/"
-  },
-  {
-    "id": "dsa-dp-003",
-    "category": "Dynamic Programming",
-    "title": "House Robber II",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/house-robber-ii/"
-  },
-  {
-    "id": "dsa-dp-004",
-    "category": "Dynamic Programming",
-    "title": "Jump Game",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/jump-game/"
-  },
-  {
-    "id": "dsa-dp-005",
-    "category": "Dynamic Programming",
-    "title": "Jump Game II",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/jump-game-ii/"
-  },
-  {
-    "id": "dsa-dp-006",
-    "category": "Dynamic Programming",
-    "title": "Coin Change",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/coin-change/"
-  },
-  {
-    "id": "dsa-dp-007",
-    "category": "Dynamic Programming",
-    "title": "Coin Change II",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/coin-change-ii/"
-  },
-  {
-    "id": "dsa-dp-008",
-    "category": "Dynamic Programming",
-    "title": "Word Break",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/word-break/"
-  },
-  {
-    "id": "dsa-dp-009",
-    "category": "Dynamic Programming",
-    "title": "Decode Ways",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/decode-ways/"
-  },
-  {
-    "id": "dsa-dp-010",
-    "category": "Dynamic Programming",
-    "title": "Unique Paths",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/unique-paths/"
-  },
-  {
-    "id": "dsa-dp-011",
-    "category": "Dynamic Programming",
-    "title": "Minimum Path Sum",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/minimum-path-sum/"
-  },
-  {
-    "id": "dsa-dp-012",
-    "category": "Dynamic Programming",
-    "title": "Longest Common Subsequence",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/longest-common-subsequence/"
-  },
-  {
-    "id": "dsa-dp-013",
-    "category": "Dynamic Programming",
-    "title": "Edit Distance",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/edit-distance/"
-  },
-  {
-    "id": "dsa-dp-014",
-    "category": "Dynamic Programming",
-    "title": "0/1 Knapsack",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+0%2F1+Knapsack"
-  },
-  {
-    "id": "dsa-dp-015",
-    "category": "Dynamic Programming",
-    "title": "Partition Equal Subset Sum",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/partition-equal-subset-sum/"
-  },
-  {
-    "id": "dsa-dp-016",
-    "category": "Dynamic Programming",
-    "title": "Longest Increasing Subsequence",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/longest-increasing-subsequence/"
-  },
-  {
-    "id": "dsa-dp-017",
-    "category": "Dynamic Programming",
-    "title": "Matrix Chain Multiplication",
-    "difficulty": "Hard",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Matrix+Chain+Multiplication"
-  },
-  {
-    "id": "dsa-dp-018",
-    "category": "Dynamic Programming",
-    "title": "Palindrome Partitioning II",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/palindrome-partitioning-ii/"
-  },
-  {
-    "id": "dsa-heap-001",
-    "category": "Heap / Priority Queue",
-    "title": "Kth Largest Element in an Array",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
-  },
-  {
-    "id": "dsa-heap-002",
-    "category": "Heap / Priority Queue",
-    "title": "Kth Smallest Element in Array",
-    "difficulty": "Medium",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Kth+Smallest+Element+in+Array"
-  },
-  {
-    "id": "dsa-heap-003",
-    "category": "Heap / Priority Queue",
-    "title": "Top K Frequent Elements",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/top-k-frequent-elements/"
-  },
-  {
-    "id": "dsa-heap-004",
-    "category": "Heap / Priority Queue",
-    "title": "Merge k Sorted Lists",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/merge-k-sorted-lists/"
-  },
-  {
-    "id": "dsa-heap-005",
-    "category": "Heap / Priority Queue",
-    "title": "Find Median from Data Stream",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/find-median-from-data-stream/"
-  },
-  {
-    "id": "dsa-heap-006",
-    "category": "Heap / Priority Queue",
-    "title": "K Closest Points to Origin",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/k-closest-points-to-origin/"
-  },
-  {
-    "id": "dsa-heap-007",
-    "category": "Heap / Priority Queue",
-    "title": "Task Scheduler",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/task-scheduler/"
-  },
-  {
-    "id": "dsa-heap-008",
-    "category": "Heap / Priority Queue",
-    "title": "Reorganize String",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/reorganize-string/"
-  },
-  {
-    "id": "dsa-twoptr-001",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Two Sum II - Input Array Is Sorted",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
-  },
-  {
-    "id": "dsa-twoptr-002",
-    "category": "Two Pointers and Sliding Window",
-    "title": "3Sum",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/3sum/"
-  },
-  {
-    "id": "dsa-twoptr-003",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Container With Most Water",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/container-with-most-water/"
-  },
-  {
-    "id": "dsa-twoptr-004",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Trapping Rain Water",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/trapping-rain-water/"
-  },
-  {
-    "id": "dsa-twoptr-005",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Remove Duplicates from Sorted Array",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
-  },
-  {
-    "id": "dsa-twoptr-006",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Move Zeroes",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/move-zeroes/"
-  },
-  {
-    "id": "dsa-twoptr-007",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Valid Palindrome II",
-    "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/valid-palindrome-ii/"
-  },
-  {
-    "id": "dsa-twoptr-008",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Sort Colors",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/sort-colors/"
-  },
-  {
-    "id": "dsa-twoptr-009",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Maximum Sum Subarray of Size K",
-    "difficulty": "Easy",
-    "url": "https://www.google.com/search?q=geeksforgeeks+Maximum+Sum+Subarray+of+Size+K"
-  },
-  {
-    "id": "dsa-twoptr-010",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Longest Substring Without Repeating Characters",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
-  },
-  {
-    "id": "dsa-twoptr-011",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Longest Substring with At Most K Distinct Characters",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
-  },
-  {
-    "id": "dsa-twoptr-012",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Minimum Window Substring",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/minimum-window-substring/"
-  },
-  {
-    "id": "dsa-twoptr-013",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Find All Anagrams in a String",
-    "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
-  },
-  {
-    "id": "dsa-twoptr-014",
-    "category": "Two Pointers and Sliding Window",
-    "title": "Sliding Window Maximum",
-    "difficulty": "Hard",
-    "url": "https://leetcode.com/problems/sliding-window-maximum/"
   }
 ]
