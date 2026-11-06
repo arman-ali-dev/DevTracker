@@ -15,7 +15,6 @@ import {
 } from "../utils/progress.js";
 import ProgressBar from "../components/ProgressBar.jsx";
 
-// Pre-grouped content (content never changes while the app runs).
 const dsaGroups = groupBy(dsa, "category");
 const interviewGroups = groupBy(interview, "topic");
 const phaseItems = roadmap.map((phase) => ({

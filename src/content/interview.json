@@ -747,5 +747,411 @@
     "topic": "Oops",
     "priority": "must",
     "question": "Why interface allowed for multiple inheritance?"
+  },
+  {
+    "id": "java-basics-108",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the Java Collections Framework?"
+  },
+  {
+    "id": "java-basics-109",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What are the main interfaces in the Collections Framework?"
+  },
+  {
+    "id": "java-basics-110",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between List, Set, and Queue?"
+  },
+  {
+    "id": "java-basics-111",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between a collection and a data structure?"
+  },
+  {
+    "id": "java-basics-112",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why use it instead of arrays?"
+  },
+  {
+    "id": "java-basics-113",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Can we change the size of an array after creation?"
+  },
+  {
+    "id": "java-basics-114",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Which is faster: an array or an ArrayList?"
+  },
+  {
+    "id": "java-basics-115",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Explain the Collection hierarchy."
+  },
+  {
+    "id": "java-basics-116",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why does Map not extend Collection?"
+  },
+  {
+    "id": "java-basics-117",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between Collection and Collections?"
+  },
+  {
+    "id": "java-basics-118",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does the for-each loop work internally with Iterable and Iterator?"
+  },
+  {
+    "id": "java-basics-119",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between Iterable and Iterator?"
+  },
+  {
+    "id": "java-basics-120",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Can we use a for-each loop with an array?"
+  },
+  {
+    "id": "java-basics-121",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between Iterator and ListIterator?"
+  },
+  {
+    "id": "java-basics-122",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why does modifying a collection during iteration cause ConcurrentModificationException?"
+  },
+  {
+    "id": "java-basics-123",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why does ConcurrentModificationException occur?"
+  },
+  {
+    "id": "java-basics-124",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How do you safely remove elements while iterating?"
+  },
+  {
+    "id": "java-basics-125",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is a fail-fast iterator?"
+  },
+  {
+    "id": "java-basics-126",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is a fail-safe iterator?"
+  },
+  {
+    "id": "java-basics-127",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between fail-fast and fail-safe iterators?"
+  },
+  {
+    "id": "java-basics-128",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Which collections provide fail-fast iterators?"
+  },
+  {
+    "id": "java-basics-129",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is CopyOnWriteArrayList?"
+  },
+  {
+    "id": "java-basics-130",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between ArrayList and CopyOnWriteArrayList?"
+  },
+  {
+    "id": "java-basics-131",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does ArrayList work internally, and how does it resize?"
+  },
+  {
+    "id": "java-basics-132",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between ArrayList and LinkedList, and when would you use each?"
+  },
+  {
+    "id": "java-basics-133",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why are Vector, Stack, and Hashtable considered legacy, and what should replace them?"
+  },
+  {
+    "id": "java-basics-134",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between list.remove(int index) and list.remove(Object o)?"
+  },
+  {
+    "id": "java-basics-135",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What does Arrays.asList() return, and why does add() on it throw UnsupportedOperationException?"
+  },
+  {
+    "id": "java-basics-136",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does HashSet ensure uniqueness?"
+  },
+  {
+    "id": "java-basics-137",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between HashSet, LinkedHashSet, and TreeSet?"
+  },
+  {
+    "id": "java-basics-138",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does HashMap work internally for put() and get()?"
+  },
+  {
+    "id": "java-basics-139",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is a hash collision, and how does HashMap handle it, including treeification in Java 8?"
+  },
+  {
+    "id": "java-basics-140",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What must a custom class implement to be used safely as a HashMap key?"
+  },
+  {
+    "id": "java-basics-141",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between HashMap and Hashtable?"
+  },
+  {
+    "id": "java-basics-142",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is ConcurrentHashMap?"
+  },
+  {
+    "id": "java-basics-143",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between HashMap, LinkedHashMap, and TreeMap?"
+  },
+  {
+    "id": "java-basics-144",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between Comparable and Comparator?"
+  },
+  {
+    "id": "java-basics-145",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How do you sort a list of objects by multiple fields?"
+  },
+  {
+    "id": "java-basics-146",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does PriorityQueue work, and how do you create a max-heap with it?"
+  },
+  {
+    "id": "java-basics-147",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is Max-Heap and Min-Heap?"
+  },
+  {
+    "id": "java-basics-148",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why is ArrayDeque?"
+  },
+  {
+    "id": "java-basics-149",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Which collections allow null elements or keys, and which do not?"
+  },
+  {
+    "id": "java-basics-150",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why do we use generics with collections, and what is wrong with raw types?"
+  },
+  {
+    "id": "java-basics-151",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What do ? extends T and ? super T mean in generics, and when do you use each?"
+  },
+  {
+    "id": "java-basics-152",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does TreeSet detect duplicates, and how is that different from HashSet?"
+  },
+  {
+    "id": "java-basics-153",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between add/remove/element and offer/poll/peek in Queue?"
+  },
+  {
+    "id": "java-basics-154",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How would you remove duplicates from a list while preserving insertion order?"
+  },
+  {
+    "id": "java-basics-155",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the contract between equals() and hashCode()?"
+  },
+  {
+    "id": "java-basics-156",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What happens if we override equals() but not hashCode()?"
+  },
+  {
+    "id": "java-basics-157",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What are the initial capacity and load factor of a HashMap?"
+  },
+  {
+    "id": "java-basics-158",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "When does HashMap resize its internal array?"
+  },
+  {
+    "id": "java-basics-159",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Why should we use immutable objects as HashMap keys?"
+  },
+  {
+    "id": "java-basics-160",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is the difference between ArrayDeque and Stack?"
+  },
+  {
+    "id": "java-basics-161",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How can we implement an LRU cache using LinkedHashMap?"
+  },
+  {
+    "id": "java-basics-162",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How can we sort a Map by keys and values?"
+  },
+  {
+    "id": "java-basics-163",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "How does LinkedHashMap maintain insertion order?"
+  },
+  {
+    "id": "java-basics-164",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "Does iterating over a PriorityQueue return elements in sorted order?"
+  },
+  {
+    "id": "java-basics-165",
+    "group": "Collection Framework",
+    "topic": "Collection Framework",
+    "priority": "must",
+    "question": "What is BlockingQueue, and where is it used?"
   }
 ]
