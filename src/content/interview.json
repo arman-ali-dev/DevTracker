@@ -970,7 +970,7 @@
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "What is a hash collision, and how does HashMap handle it, including treeification in Java 8?"
+    "question": "What is a hash collision, and how does HashMap handle it (including treeification in Java 8)?"
   },
   {
     "id": "java-basics-140",
@@ -1033,7 +1033,7 @@
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "Why is ArrayDeque?"
+    "question": "Why is ArrayDeque used?"
   },
   {
     "id": "java-basics-149",
@@ -1103,161 +1103,161 @@
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "When does HashMap resize its internal array?"
+    "question": "What is load factor?"
   },
   {
     "id": "java-basics-159",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "Why should we use immutable objects as HashMap keys?"
+    "question": "When does HashMap resize its internal array?"
   },
   {
     "id": "java-basics-160",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "What is the difference between ArrayDeque and Stack?"
+    "question": "Can we change load factor?"
   },
   {
     "id": "java-basics-161",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "How can we implement an LRU cache using LinkedHashMap?"
+    "question": "What is the difference between ArrayDeque and Stack?"
   },
   {
     "id": "java-basics-162",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "How can we sort a Map by keys and values?"
+    "question": "How can we implement an LRU cache using LinkedHashMap?"
   },
   {
     "id": "java-basics-163",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "How does LinkedHashMap maintain insertion order?"
+    "question": "How can we sort a Map by keys and values?"
   },
   {
     "id": "java-basics-164",
     "group": "Collection Framework",
     "topic": "Collection Framework",
     "priority": "must",
-    "question": "Does iterating over a PriorityQueue return elements in sorted order?"
+    "question": "How does LinkedHashMap maintain insertion order?"
   },
   {
     "id": "java-basics-165",
-    "group": "Collection Framework",
-    "topic": "Collection Framework",
+    "group": "Exception Handling",
+    "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is BlockingQueue, and where is it used?"
+    "question": "What are exceptions?"
   },
   {
     "id": "java-basics-166",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "Explain the Java exception hierarchy."
+    "question": "What do you mean by exception handling?"
   },
   {
     "id": "java-basics-167",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is the difference between Exception and Error?"
+    "question": "Explain the Java exception hierarchy."
   },
   {
     "id": "java-basics-168",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "Should you catch errors like StackOverflowError or OutOfMemoryError?"
+    "question": "What is the difference between Exception and Error?"
   },
   {
     "id": "java-basics-169",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is the difference between checked and unchecked exceptions, and why did Java design them this way?"
+    "question": "Should you catch errors like StackOverflowError or OutOfMemoryError?"
   },
   {
     "id": "java-basics-170",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "How does the try-catch-finally flow work?"
+    "question": "What is the difference between checked and unchecked exceptions?"
   },
   {
     "id": "java-basics-171",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "Can you have try without catch?"
+    "question": "How does the try-catch-finally flow work?"
   },
   {
     "id": "java-basics-172",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "Does the finally block always execute? In which cases does it not?"
+    "question": "Can you have try without catch?"
   },
   {
     "id": "java-basics-173",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What does a method return if both the try block and the finally block contain a return statement?"
+    "question": "Does the finally block always execute? In which cases does it not?"
   },
   {
     "id": "java-basics-174",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "Why must specific catch blocks come before general ones?"
+    "question": "What does a method return if both the try block and the finally block contain a return statement?"
   },
   {
     "id": "java-basics-175",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is multi-catch (Java 7+)?"
+    "question": "Why must specific catch blocks come before general ones?"
   },
   {
     "id": "java-basics-176",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is the difference between throw and throws?"
+    "question": "What is multi-catch (Java 7+)?"
   },
   {
     "id": "java-basics-177",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "How do you create a custom exception, and how do you decide between making it checked or unchecked?"
+    "question": "What is the difference between throw and throws?"
   },
   {
     "id": "java-basics-178",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is try-with-resources, and how does it work with AutoCloseable?"
+    "question": "How do you create a custom exception?"
   },
   {
     "id": "java-basics-179",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "In what order are resources closed?"
+    "question": "What is try-with-resources, and how does it work with AutoCloseable?"
   },
   {
     "id": "java-basics-180",
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What is exception chaining?"
+    "question": "In what order are resources closed?"
   },
   {
     "id": "java-basics-181",
@@ -1278,41 +1278,391 @@
     "group": "Exception Handling",
     "topic": "Exception Handling",
     "priority": "must",
-    "question": "What are the rules for exceptions when overriding a method (checked vs unchecked in the child method)?"
-  },
-  {
-    "id": "java-basics-184",
-    "group": "Exception Handling",
-    "topic": "Exception Handling",
-    "priority": "must",
-    "question": "What are suppressed exceptions in try-with-resources?"
-  },
-  {
-    "id": "java-basics-185",
-    "group": "Exception Handling",
-    "topic": "Exception Handling",
-    "priority": "must",
-    "question": "Why should exceptions not be used for normal flow control?"
-  },
-  {
-    "id": "java-basics-186",
-    "group": "Exception Handling",
-    "topic": "Exception Handling",
-    "priority": "must",
-    "question": "What happens if an exception is thrown inside the finally block?"
-  },
-  {
-    "id": "java-basics-187",
-    "group": "Exception Handling",
-    "topic": "Exception Handling",
-    "priority": "must",
     "question": "What is InterruptedException, and how should we handle it properly?"
   },
   {
-    "id": "java-basics-188",
-    "group": "Exception Handling",
-    "topic": "Exception Handling",
+    "id": "java-basics-184",
+    "group": "Multithreading",
+    "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between ClassNotFoundException and NoClassDefFoundError?"
+    "question": "What is multithreading?"
+  },
+  {
+    "id": "java-basics-185",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is a thread?"
+  },
+  {
+    "id": "java-basics-186",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Why is it needed in real applications?"
+  },
+  {
+    "id": "java-basics-187",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between a process and a thread?"
+  },
+  {
+    "id": "java-basics-188",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What are the ways to create a thread in Java?"
+  },
+  {
+    "id": "java-basics-189",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Why is Runnable preferred over extending Thread?"
+  },
+  {
+    "id": "java-basics-190",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between start() and run()?"
+  },
+  {
+    "id": "java-basics-191",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Can we call run() directly without calling start()?"
+  },
+  {
+    "id": "java-basics-192",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Can we restart a thread after it has completed?"
+  },
+  {
+    "id": "java-basics-193",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What happens if two threads access the same shared variable at the same time?"
+  },
+  {
+    "id": "java-basics-194",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is thread safety, and how do you achieve it?"
+  },
+  {
+    "id": "java-basics-195",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Explain the thread lifecycle and its states."
+  },
+  {
+    "id": "java-basics-196",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is join()?"
+  },
+  {
+    "id": "java-basics-197",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is sleep()?"
+  },
+  {
+    "id": "java-basics-198",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is a daemon thread, and when would you use one?"
+  },
+  {
+    "id": "java-basics-199",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the Producer-Consumer problem?"
+  },
+  {
+    "id": "java-basics-200",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is memory visibility problem?"
+  },
+  {
+    "id": "java-basics-201",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is volatile keyword?"
+  },
+  {
+    "id": "java-basics-202",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the critical section?"
+  },
+  {
+    "id": "java-basics-203",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is context switching?"
+  },
+  {
+    "id": "java-basics-204",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is monitor lock?"
+  },
+  {
+    "id": "java-basics-205",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is ExecutorService?"
+  },
+  {
+    "id": "java-basics-206",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is thread pool?"
+  },
+  {
+    "id": "java-basics-207",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between Runnable and Callable?"
+  },
+  {
+    "id": "java-basics-208",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is Future?"
+  },
+  {
+    "id": "java-basics-209",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What types of pools does Executors provide?"
+  },
+  {
+    "id": "java-basics-210",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between shutdown() and shutdownNow()?"
+  },
+  {
+    "id": "java-basics-211",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is a race condition?"
+  },
+  {
+    "id": "java-basics-212",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "How does the synchronized keyword work?"
+  },
+  {
+    "id": "java-basics-213",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between a synchronized method, a block, and a static synchronized method?"
+  },
+  {
+    "id": "java-basics-214",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is a deadlock, how can it occur, and how do you prevent it?"
+  },
+  {
+    "id": "java-basics-215",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What are atomic classes?"
+  },
+  {
+    "id": "java-basics-216",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is ReentrantLock?"
+  },
+  {
+    "id": "java-basics-217",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What are the four necessary conditions for a deadlock?"
+  },
+  {
+    "id": "java-basics-218",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What happens if you forget to call unlock() in ReentrantLock?"
+  },
+  {
+    "id": "java-basics-219",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between visibility and atomicity?"
+  },
+  {
+    "id": "java-basics-220",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the CAS (Compare-And-Swap) operation?"
+  },
+  {
+    "id": "java-basics-221",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between synchronized and ReentrantLock, and when would you use ReentrantLock?"
+  },
+  {
+    "id": "java-basics-222",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is CompletableFuture?"
+  },
+  {
+    "id": "java-basics-223",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What are the limitations of Future, and how does CompletableFuture solve them?"
+  },
+  {
+    "id": "java-basics-224",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between thenApply() and thenCompose()?"
+  },
+  {
+    "id": "java-basics-225",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is ReadWriteLock?"
+  },
+  {
+    "id": "java-basics-226",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "When would you use a ReadWriteLock?"
+  },
+  {
+    "id": "java-basics-227",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "How do you implement the producer-consumer pattern using BlockingQueue?"
+  },
+  {
+    "id": "java-basics-228",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "How do wait(), notify(), and notifyAll() work?"
+  },
+  {
+    "id": "java-basics-229",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "How do you stop a running thread safely using interrupt()?"
+  },
+  {
+    "id": "java-basics-230",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is ThreadLocal, and where is it used?"
+  },
+  {
+    "id": "java-basics-231",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What are virtual threads (Java 21), and how do they differ from platform threads?"
+  },
+  {
+    "id": "java-basics-232",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What happens when you submit a task to an ExecutorService after calling shutdown()?"
+  },
+  {
+    "id": "java-basics-233",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between execute() and submit()?"
+  },
+  {
+    "id": "java-basics-234",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "Why must wait(), notify(), and notifyAll() be called inside a synchronized context?"
+  },
+  {
+    "id": "java-basics-235",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between notify() and notifyAll()?"
+  },
+  {
+    "id": "java-basics-236",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is thread starvation?"
+  },
+  {
+    "id": "java-basics-237",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is thread pool?"
+  },
+  {
+    "id": "java-basics-238",
+    "group": "Multithreading",
+    "topic": "Multithreading",
+    "priority": "must",
+    "question": "What is the difference between concurrency and parallelism?"
   }
 ]
