@@ -1432,234 +1432,227 @@
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is ExecutorService?"
+    "question": "What is wait()?"
   },
   {
     "id": "java-basics-206",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is thread pool?"
+    "question": "What is the difference between notify() and notifyAll()?"
   },
   {
     "id": "java-basics-207",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between Runnable and Callable?"
+    "question": "What is thread starvation?"
   },
   {
     "id": "java-basics-208",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is Future?"
+    "question": "What is Lock interface?"
   },
   {
     "id": "java-basics-209",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What types of pools does Executors provide?"
+    "question": "What is ReentrantLock?"
   },
   {
     "id": "java-basics-210",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between shutdown() and shutdownNow()?"
+    "question": "What is the difference between synchronized and ReentrantLock, and when would you use ReentrantLock?"
   },
   {
     "id": "java-basics-211",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is a race condition?"
+    "question": "What is ReadWriteLock?"
   },
   {
     "id": "java-basics-212",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "How does the synchronized keyword work?"
+    "question": "When would you use a ReadWriteLock?"
   },
   {
     "id": "java-basics-213",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between a synchronized method, a block, and a static synchronized method?"
+    "question": "What is a race condition?"
   },
   {
     "id": "java-basics-214",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is a deadlock, how can it occur, and how do you prevent it?"
+    "question": "What is Executor framework?"
   },
   {
     "id": "java-basics-215",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What are atomic classes?"
+    "question": "What is ExecutorService?"
   },
   {
     "id": "java-basics-216",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is ReentrantLock?"
+    "question": "What is thread pool?"
   },
   {
     "id": "java-basics-217",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What are the four necessary conditions for a deadlock?"
+    "question": "What is the difference between Runnable and Callable?"
   },
   {
     "id": "java-basics-218",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What happens if you forget to call unlock() in ReentrantLock?"
+    "question": "What is Future?"
   },
   {
     "id": "java-basics-219",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between visibility and atomicity?"
+    "question": "What types of pools does Executors provide?"
   },
   {
     "id": "java-basics-220",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the CAS (Compare-And-Swap) operation?"
+    "question": "What is the difference between shutdown() and shutdownNow()?"
   },
   {
     "id": "java-basics-221",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between synchronized and ReentrantLock, and when would you use ReentrantLock?"
+    "question": "How does the synchronized keyword work?"
   },
   {
     "id": "java-basics-222",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is CompletableFuture?"
+    "question": "What is the difference between a synchronized method, a block, and a static synchronized method?"
   },
   {
     "id": "java-basics-223",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What are the limitations of Future, and how does CompletableFuture solve them?"
+    "question": "Why must wait(), notify(), and notifyAll() be called inside a synchronized context?"
   },
   {
     "id": "java-basics-224",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between thenApply() and thenCompose()?"
+    "question": "What is the difference between execute() and submit()?"
   },
   {
     "id": "java-basics-225",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is ReadWriteLock?"
+    "question": "What happens when you submit a task to an ExecutorService after calling shutdown()?"
   },
   {
     "id": "java-basics-226",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "When would you use a ReadWriteLock?"
+    "question": "How do you stop a running thread safely using interrupt()?"
   },
   {
     "id": "java-basics-227",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "How do you implement the producer-consumer pattern using BlockingQueue?"
+    "question": "What happens if you forget to call unlock() in ReentrantLock?"
   },
   {
     "id": "java-basics-228",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "How do wait(), notify(), and notifyAll() work?"
+    "question": "What are atomic classes?"
   },
   {
     "id": "java-basics-229",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "How do you stop a running thread safely using interrupt()?"
+    "question": "What is a deadlock, how can it occur, and how do you prevent it?"
   },
   {
     "id": "java-basics-230",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is ThreadLocal, and where is it used?"
+    "question": "What is the difference between visibility and atomicity?"
   },
   {
     "id": "java-basics-231",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What are virtual threads (Java 21), and how do they differ from platform threads?"
+    "question": "What is CompletableFuture?"
   },
   {
     "id": "java-basics-232",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What happens when you submit a task to an ExecutorService after calling shutdown()?"
+    "question": "What are the limitations of Future, and how does CompletableFuture solve them?"
   },
   {
     "id": "java-basics-233",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between execute() and submit()?"
+    "question": "What is the difference between thenApply() and thenAccept()?"
   },
   {
     "id": "java-basics-234",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "Why must wait(), notify(), and notifyAll() be called inside a synchronized context?"
+    "question": "What is the difference between supplyAsync() and runAsync()?"
   },
   {
     "id": "java-basics-235",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is the difference between notify() and notifyAll()?"
+    "question": "What is ThreadLocal, and where is it used?"
   },
   {
     "id": "java-basics-236",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
-    "question": "What is thread starvation?"
+    "question": "What are virtual threads (Java 21), and how do they differ from platform threads?"
   },
   {
     "id": "java-basics-237",
-    "group": "Multithreading",
-    "topic": "Multithreading",
-    "priority": "must",
-    "question": "What is thread pool?"
-  },
-  {
-    "id": "java-basics-238",
     "group": "Multithreading",
     "topic": "Multithreading",
     "priority": "must",
