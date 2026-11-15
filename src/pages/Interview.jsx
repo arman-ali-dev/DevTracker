@@ -282,7 +282,6 @@ export default function Interview() {
       )}
 
       {visible.map((g, idx) => {
-        // Percent uses the whole topic, not only the filtered rows.
         const s = countDone(g.items, map);
         const m = countDone(
           g.items.filter((x) => x.priority === "must"),

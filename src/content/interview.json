@@ -1657,5 +1657,257 @@
     "topic": "Multithreading",
     "priority": "must",
     "question": "What is the difference between concurrency and parallelism?"
+  },
+  {
+    "id": "java-basics-238",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What is a functional interface?"
+  },
+  {
+    "id": "java-basics-239",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What is the purpose of @FunctionalInterface?"
+  },
+  {
+    "id": "java-basics-240",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What are Predicate, Function, Consumer, and Supplier, and when do you use each?"
+  },
+  {
+    "id": "java-basics-241",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What is a lambda expression?"
+  },
+  {
+    "id": "java-basics-242",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "Why must local variables used inside a lambda be effectively final?"
+  },
+  {
+    "id": "java-basics-243",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What are method references, and what are their four types?"
+  },
+  {
+    "id": "java-basics-244",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "Why were default methods introduced in interfaces in Java 8?"
+  },
+  {
+    "id": "java-basics-245",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the Stream API?"
+  },
+  {
+    "id": "java-basics-246",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between intermediate and terminal operations?"
+  },
+  {
+    "id": "java-basics-247",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is lazy evaluation in streams?"
+  },
+  {
+    "id": "java-basics-248",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between map() and flatMap()?"
+  },
+  {
+    "id": "java-basics-249",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is reduce()?"
+  },
+  {
+    "id": "java-basics-250",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between Collectors.groupingBy() and Collectors.partitioningBy()?"
+  },
+  {
+    "id": "java-basics-251",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What are parallel streams, and when should you avoid them?"
+  },
+  {
+    "id": "java-basics-252",
+    "group": "Java 8+ Features",
+    "topic": "Optional",
+    "priority": "must",
+    "question": "What is Optional?"
+  },
+  {
+    "id": "java-basics-253",
+    "group": "Java 8+ Features",
+    "topic": "Optional",
+    "priority": "must",
+    "question": "What is the difference between Optional.of() and Optional.ofNullable()?"
+  },
+  {
+    "id": "java-basics-254",
+    "group": "Java 8+ Features",
+    "topic": "Optional",
+    "priority": "must",
+    "question": "What is the difference between orElse() and orElseGet()?"
+  },
+  {
+    "id": "java-basics-255",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are records, and when would you use them?"
+  },
+  {
+    "id": "java-basics-256",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "How do you handle checked exceptions inside a lambda expression?"
+  },
+  {
+    "id": "java-basics-257",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What is the var keyword, and what are its restrictions?"
+  },
+  {
+    "id": "java-basics-258",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are sealed classes, and what problem do they solve?"
+  },
+  {
+    "id": "java-basics-259",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are the major features added to Java after Java 8 (up to Java 17)?"
+  },
+  {
+    "id": "java-basics-260",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "Can a functional interface have default and static methods?"
+  },
+  {
+    "id": "java-basics-261",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What is the difference between a lambda expression and an anonymous inner class?"
+  },
+  {
+    "id": "java-basics-262",
+    "group": "Java 8+ Features",
+    "topic": "Functional Interfaces and Lambda Expressions",
+    "priority": "must",
+    "question": "What is the difference between a method reference and a lambda expression?"
+  },
+  {
+    "id": "java-basics-263",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "Can we reuse a Stream after performing a terminal operation?"
+  },
+  {
+    "id": "java-basics-264",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between findFirst() and findAny()?"
+  },
+  {
+    "id": "java-basics-265",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between filter() and map()?"
+  },
+  {
+    "id": "java-basics-266",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between forEach() and forEachOrdered()?"
+  },
+  {
+    "id": "java-basics-267",
+    "group": "Java 8+ Features",
+    "topic": "Stream API",
+    "priority": "must",
+    "question": "What is the difference between limit() and skip()?"
+  },
+  {
+    "id": "java-basics-268",
+    "group": "Java 8+ Features",
+    "topic": "Optional",
+    "priority": "must",
+    "question": "What is the difference between isPresent() and ifPresent() in Optional?"
+  },
+  {
+    "id": "java-basics-269",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are private methods in interfaces, introduced in Java 9?"
+  },
+  {
+    "id": "java-basics-270",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are factory methods for creating immutable collections, introduced in Java 9?"
+  },
+  {
+    "id": "java-basics-271",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are text blocks, introduced in Java 15?"
+  },
+  {
+    "id": "java-basics-272",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What are switch expressions, introduced in Java 14?"
+  },
+  {
+    "id": "java-basics-273",
+    "group": "Java 8+ Features",
+    "topic": "Modern Java Features",
+    "priority": "must",
+    "question": "What is pattern matching for instanceof, introduced in Java 16?"
   }
 ]
