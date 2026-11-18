@@ -1661,253 +1661,414 @@
   {
     "id": "java-basics-238",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is a functional interface?"
   },
   {
     "id": "java-basics-239",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the purpose of @FunctionalInterface?"
   },
   {
     "id": "java-basics-240",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are Predicate, Function, Consumer, and Supplier, and when do you use each?"
   },
   {
     "id": "java-basics-241",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is a lambda expression?"
   },
   {
     "id": "java-basics-242",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "Why must local variables used inside a lambda be effectively final?"
   },
   {
     "id": "java-basics-243",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are method references, and what are their four types?"
   },
   {
     "id": "java-basics-244",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "Why were default methods introduced in interfaces in Java 8?"
   },
   {
     "id": "java-basics-245",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
-    "question": "What is the Stream API?"
+    "question": "What is the Java 8+ Features?"
   },
   {
     "id": "java-basics-246",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between intermediate and terminal operations?"
   },
   {
     "id": "java-basics-247",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is lazy evaluation in streams?"
   },
   {
     "id": "java-basics-248",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between map() and flatMap()?"
   },
   {
     "id": "java-basics-249",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is reduce()?"
   },
   {
     "id": "java-basics-250",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between Collectors.groupingBy() and Collectors.partitioningBy()?"
   },
   {
     "id": "java-basics-251",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are parallel streams, and when should you avoid them?"
   },
   {
     "id": "java-basics-252",
     "group": "Java 8+ Features",
-    "topic": "Optional",
+    "topic": "Java 8+ Features",
     "priority": "must",
-    "question": "What is Optional?"
+    "question": "What is Java 8+ Features?"
   },
   {
     "id": "java-basics-253",
     "group": "Java 8+ Features",
-    "topic": "Optional",
+    "topic": "Java 8+ Features",
     "priority": "must",
-    "question": "What is the difference between Optional.of() and Optional.ofNullable()?"
+    "question": "What is the difference between Java 8+ Features.of() and Java 8+ Features.ofNullable()?"
   },
   {
     "id": "java-basics-254",
     "group": "Java 8+ Features",
-    "topic": "Optional",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between orElse() and orElseGet()?"
   },
   {
     "id": "java-basics-255",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are records, and when would you use them?"
   },
   {
     "id": "java-basics-256",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "How do you handle checked exceptions inside a lambda expression?"
   },
   {
     "id": "java-basics-257",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the var keyword, and what are its restrictions?"
   },
   {
     "id": "java-basics-258",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are sealed classes, and what problem do they solve?"
   },
   {
     "id": "java-basics-259",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are the major features added to Java after Java 8 (up to Java 17)?"
   },
   {
     "id": "java-basics-260",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "Can a functional interface have default and static methods?"
   },
   {
     "id": "java-basics-261",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between a lambda expression and an anonymous inner class?"
   },
   {
     "id": "java-basics-262",
     "group": "Java 8+ Features",
-    "topic": "Functional Interfaces and Lambda Expressions",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between a method reference and a lambda expression?"
   },
   {
     "id": "java-basics-263",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "Can we reuse a Stream after performing a terminal operation?"
   },
   {
     "id": "java-basics-264",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between findFirst() and findAny()?"
   },
   {
     "id": "java-basics-265",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between filter() and map()?"
   },
   {
     "id": "java-basics-266",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between forEach() and forEachOrdered()?"
   },
   {
     "id": "java-basics-267",
     "group": "Java 8+ Features",
-    "topic": "Stream API",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is the difference between limit() and skip()?"
   },
   {
     "id": "java-basics-268",
     "group": "Java 8+ Features",
-    "topic": "Optional",
+    "topic": "Java 8+ Features",
     "priority": "must",
-    "question": "What is the difference between isPresent() and ifPresent() in Optional?"
+    "question": "What is the difference between isPresent() and ifPresent() in Java 8+ Features?"
   },
   {
     "id": "java-basics-269",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are private methods in interfaces, introduced in Java 9?"
   },
   {
     "id": "java-basics-270",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are factory methods for creating immutable collections, introduced in Java 9?"
   },
   {
     "id": "java-basics-271",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are text blocks, introduced in Java 15?"
   },
   {
     "id": "java-basics-272",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What are switch expressions, introduced in Java 14?"
   },
   {
     "id": "java-basics-273",
     "group": "Java 8+ Features",
-    "topic": "Modern Java Features",
+    "topic": "Java 8+ Features",
     "priority": "must",
     "question": "What is pattern matching for instanceof, introduced in Java 16?"
+  },
+  {
+    "id": "java-basics-274",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is memory management in Java?"
+  },
+  {
+    "id": "java-basics-275",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What are the JVM memory areas?"
+  },
+  {
+    "id": "java-basics-276",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is a class loader?"
+  },
+  {
+    "id": "java-basics-277",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What are the types of class loaders?"
+  },
+  {
+    "id": "java-basics-278",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is heap memory?"
+  },
+  {
+    "id": "java-basics-279",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "How does heap memory work?"
+  },
+  {
+    "id": "java-basics-280",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is the young generation?"
+  },
+  {
+    "id": "java-basics-281",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is the old generation?"
+  },
+  {
+    "id": "java-basics-282",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is stack memory?"
+  },
+  {
+    "id": "java-basics-283",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "How does stack memory work?"
+  },
+  {
+    "id": "java-basics-284",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is the difference between stack and heap memory?"
+  },
+  {
+    "id": "java-basics-285",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is Metaspace?"
+  },
+  {
+    "id": "java-basics-286",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is the String pool?"
+  },
+  {
+    "id": "java-basics-287",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is garbage collection?"
+  },
+  {
+    "id": "java-basics-288",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "How does garbage collection work?"
+  },
+  {
+    "id": "java-basics-289",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is a memory leak in Java?"
+  },
+  {
+    "id": "java-basics-290",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is OutOfMemoryError?"
+  },
+  {
+    "id": "java-basics-291",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is StackOverflowError?"
+  },
+  {
+    "id": "java-basics-292",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "Can we force garbage collection?"
+  },
+  {
+    "id": "java-basics-293",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is the finalize() method?"
+  },
+  {
+    "id": "java-basics-294",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is Method Area?"
+  },
+  {
+    "id": "java-basics-295",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is PC Register?"
+  },
+  {
+    "id": "java-basics-296",
+    "group": "Java Memory Management",
+    "topic": "Java Memory Management",
+    "priority": "must",
+    "question": "What is Native Method Stack?"
   }
 ]

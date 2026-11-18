@@ -9,97 +9,364 @@
         "items": [
           {
             "id": "p1-fund-001",
-            "title": "Program structure: main method, class, packages, imports"
+            "title": "Java program structure"
           },
           {
             "id": "p1-fund-002",
-            "title": "Primitive data types and type casting"
+            "title": "Primitive data types"
           },
-          { "id": "p1-fund-003", "title": "Operators" },
-          { "id": "p1-fund-004", "title": "Control flow and loops" },
-          { "id": "p1-fund-005", "title": "Arrays" },
-          { "id": "p1-fund-006", "title": "Methods and method overloading" },
-          { "id": "p1-fund-007", "title": "Scope and lifetime of variables" },
+          {
+            "id": "p1-fund-003",
+            "title": "Type casting"
+          },
+          {
+            "id": "p1-fund-004",
+            "title": "Operators"
+          },
+          {
+            "id": "p1-fund-005",
+            "title": "Control flow"
+          },
+          {
+            "id": "p1-fund-006",
+            "title": "Loops"
+          },
+          {
+            "id": "p1-fund-007",
+            "title": "Arrays"
+          },
           {
             "id": "p1-fund-008",
-            "title": "String, StringBuilder, StringBuffer"
+            "title": "Methods"
           },
           {
             "id": "p1-fund-009",
-            "title": "Wrapper classes, autoboxing and unboxing"
+            "title": "Scope and lifetime of variables"
           },
-          { "id": "p1-fund-010", "title": "Generics basics" },
-          { "id": "p1-fund-011", "title": "Scanner class for user input" }
+          {
+            "id": "p1-fund-010",
+            "title": "String basics"
+          },
+          {
+            "id": "p1-fund-011",
+            "title": "Wrapper classes"
+          },
+          {
+            "id": "p1-fund-012",
+            "title": "Generics basics"
+          },
+          {
+            "id": "p1-fund-013",
+            "title": "Scanner class"
+          }
         ]
       },
       {
         "id": "p1-oop",
         "title": "OOP Concepts",
         "items": [
-          { "id": "p1-oop-001", "title": "Classes, Objects, Constructors" },
-          { "id": "p1-oop-002", "title": "Inheritance and Polymorphism" },
+          {
+            "id": "p1-oop-001",
+            "title": "What is OOP and Why It Exists"
+          },
+          {
+            "id": "p1-oop-002",
+            "title": "Class and Object"
+          },
           {
             "id": "p1-oop-003",
-            "title": "Abstraction, Interfaces vs Abstract Classes"
+            "title": "Constructor"
           },
-          { "id": "p1-oop-004", "title": "Encapsulation and Access Modifiers" }
+          {
+            "id": "p1-oop-004",
+            "title": "Encapsulation"
+          },
+          {
+            "id": "p1-oop-005",
+            "title": "Inheritance"
+          },
+          {
+            "id": "p1-oop-006",
+            "title": "Polymorphism"
+          },
+          {
+            "id": "p1-oop-007",
+            "title": "Abstraction"
+          },
+          {
+            "id": "p1-oop-008",
+            "title": "Access Modifiers"
+          },
+          {
+            "id": "p1-oop-009",
+            "title": "Static Keyword"
+          },
+          {
+            "id": "p1-oop-010",
+            "title": "Final Keyword"
+          },
+          {
+            "id": "p1-oop-011",
+            "title": "Instanceof Operator"
+          },
+          {
+            "id": "p1-oop-012",
+            "title": "Upcasting and Downcasting"
+          },
+          {
+            "id": "p1-oop-013",
+            "title": "Object Class"
+          },
+          {
+            "id": "p1-oop-014",
+            "title": "Inner Classes"
+          }
         ]
       },
       {
         "id": "p1-coll",
         "title": "Collections",
         "items": [
-          { "id": "p1-coll-001", "title": "List, Set, Map basics" },
-          { "id": "p1-coll-002", "title": "HashMap internals" },
-          { "id": "p1-coll-003", "title": "Comparable vs Comparator" },
-          { "id": "p1-coll-004", "title": "Queue, Deque, PriorityQueue" }
+          {
+            "id": "p1-coll-001",
+            "title": "What is Collection Framework and Why It Exists"
+          },
+          {
+            "id": "p1-coll-002",
+            "title": "Complete Hierarchy"
+          },
+          {
+            "id": "p1-coll-003",
+            "title": "Iterable and Collection Interfaces"
+          },
+          {
+            "id": "p1-coll-004",
+            "title": "Iterator and ListIterator"
+          },
+          {
+            "id": "p1-coll-005",
+            "title": "List Interface and All Implementations"
+          },
+          {
+            "id": "p1-coll-006",
+            "title": "Set Interface and All Implementations"
+          },
+          {
+            "id": "p1-coll-007",
+            "title": "Queue Interface and All Implementations"
+          },
+          {
+            "id": "p1-coll-008",
+            "title": "Map Interface and All Implementations"
+          },
+          {
+            "id": "p1-coll-009",
+            "title": "Generics in Collections"
+          },
+          {
+            "id": "p1-coll-010",
+            "title": "Null Handling in Collections"
+          },
+          {
+            "id": "p1-coll-011",
+            "title": "Arrays vs Collections"
+          },
+          {
+            "id": "p1-coll-012",
+            "title": "Unmodifiable and Immutable Collections"
+          }
         ]
       },
       {
         "id": "p1-exc",
         "title": "Exception Handling",
         "items": [
-          { "id": "p1-exc-001", "title": "Checked vs Unchecked exceptions" },
-          { "id": "p1-exc-002", "title": "Try-catch-finally" },
-          { "id": "p1-exc-003", "title": "Custom exceptions" },
-          { "id": "p1-exc-004", "title": "Try-with-resources" }
+          {
+            "id": "p1-exc-001",
+            "title": "What is an Exception and Why It Exists"
+          },
+          {
+            "id": "p1-exc-002",
+            "title": "Exception Hierarchy"
+          },
+          {
+            "id": "p1-exc-003",
+            "title": "Checked vs Unchecked Exceptions"
+          },
+          {
+            "id": "p1-exc-004",
+            "title": "Try-Catch-Finally"
+          },
+          {
+            "id": "p1-exc-005",
+            "title": "Throws Keyword"
+          },
+          {
+            "id": "p1-exc-006",
+            "title": "Throw Keyword"
+          },
+          {
+            "id": "p1-exc-007",
+            "title": "Custom Exceptions"
+          },
+          {
+            "id": "p1-exc-008",
+            "title": "Try-With-Resources"
+          },
+          {
+            "id": "p1-exc-009",
+            "title": "Exception Chaining"
+          }
         ]
       },
       {
-        "id": "p1-thread",
+        "id": "p1-multi",
         "title": "Multithreading and Concurrency",
         "items": [
-          { "id": "p1-thread-001", "title": "Thread lifecycle" },
-          { "id": "p1-thread-002", "title": "Runnable vs Callable" },
-          { "id": "p1-thread-003", "title": "ExecutorService and ThreadPool" },
-          { "id": "p1-thread-004", "title": "synchronized and volatile" },
-          { "id": "p1-thread-005", "title": "CompletableFuture" }
+          {
+            "id": "p1-multi-001",
+            "title": "What is Multithreading and Why It Exists"
+          },
+          {
+            "id": "p1-multi-002",
+            "title": "Creating a Thread"
+          },
+          {
+            "id": "p1-multi-003",
+            "title": "Thread Lifecycle"
+          },
+          {
+            "id": "p1-multi-004",
+            "title": "Runnable vs Callable"
+          },
+          {
+            "id": "p1-multi-005",
+            "title": "ExecutorService and ThreadPool"
+          },
+          {
+            "id": "p1-multi-006",
+            "title": "Synchronized Keyword"
+          },
+          {
+            "id": "p1-multi-007",
+            "title": "Volatile Keyword"
+          },
+          {
+            "id": "p1-multi-008",
+            "title": "Atomic Classes"
+          },
+          {
+            "id": "p1-multi-009",
+            "title": "ReentrantLock and ReadWriteLock"
+          },
+          {
+            "id": "p1-multi-010",
+            "title": "Concurrent Collections"
+          },
+          {
+            "id": "p1-multi-011",
+            "title": "CompletableFuture"
+          }
         ]
       },
       {
         "id": "p1-j8",
         "title": "Java 8+ Features",
         "items": [
-          { "id": "p1-j8-001", "title": "Lambda expressions" },
-          { "id": "p1-j8-002", "title": "Stream API" },
-          { "id": "p1-j8-003", "title": "Optional class" },
-          { "id": "p1-j8-004", "title": "Functional interfaces" },
-          { "id": "p1-j8-005", "title": "Method references" },
+          {
+            "id": "p1-j8-001",
+            "title": "Functional Interfaces"
+          },
+          {
+            "id": "p1-j8-002",
+            "title": "Lambda Expressions"
+          },
+          {
+            "id": "p1-j8-003",
+            "title": "Method References"
+          },
+          {
+            "id": "p1-j8-004",
+            "title": "Default and Static Methods in Interfaces"
+          },
+          {
+            "id": "p1-j8-005",
+            "title": "Stream API"
+          },
           {
             "id": "p1-j8-006",
-            "title": "Default and static methods in interfaces"
+            "title": "Optional Class"
+          },
+          {
+            "id": "p1-j8-007",
+            "title": "Date and Time API"
+          },
+          {
+            "id": "p1-j8-008",
+            "title": "var Keyword"
+          },
+          {
+            "id": "p1-j8-009",
+            "title": "Immutable Collections"
+          },
+          {
+            "id": "p1-j8-010",
+            "title": "String Methods"
+          },
+          {
+            "id": "p1-j8-011",
+            "title": "Switch Expressions"
+          },
+          {
+            "id": "p1-j8-012",
+            "title": "Records"
+          },
+          {
+            "id": "p1-j8-013",
+            "title": "Sealed Classes"
+          },
+          {
+            "id": "p1-j8-014",
+            "title": "Stream API Improvements"
+          },
+          {
+            "id": "p1-j8-015",
+            "title": "Pattern Matching"
+          },
+          {
+            "id": "p1-j8-016",
+            "title": "Text Blocks"
           }
         ]
       },
       {
         "id": "p1-jvm",
-        "title": "JVM and Memory Management",
+        "title": "Java Memory Management",
         "items": [
-          { "id": "p1-jvm-001", "title": "JVM architecture" },
-          { "id": "p1-jvm-002", "title": "Heap vs Stack memory" },
-          { "id": "p1-jvm-003", "title": "Garbage Collection" },
-          { "id": "p1-jvm-004", "title": "ClassLoader mechanism" },
-          { "id": "p1-jvm-005", "title": "Java memory model" }
+          {
+            "id": "p1-jvm-001",
+            "title": "What is Memory Management"
+          },
+          {
+            "id": "p1-jvm-002",
+            "title": "JVM Memory Areas"
+          },
+          {
+            "id": "p1-jvm-003",
+            "title": "Class Loader"
+          },
+          {
+            "id": "p1-jvm-004",
+            "title": "String Pool"
+          },
+          {
+            "id": "p1-jvm-005",
+            "title": "Garbage Collection"
+          },
+          {
+            "id": "p1-jvm-006",
+            "title": "OutOfMemoryError and StackOverflowError"
+          }
         ]
       }
     ]
